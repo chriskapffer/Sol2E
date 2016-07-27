@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4ADEAE6D-0F38-47CE-ACF4-06B089D44FB4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sol2E</RootNamespace>
+    <AssemblyName>Sol2E</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Sol2E.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sol2EGame.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceManager.cs" />
+    <Compile Include="VitalGameMethods.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Audio\Sol2E.Audio.csproj">
+      <Project>{C63A9937-AFC6-489A-A369-DFEECAD61AA8}</Project>
+      <Name>Sol2E.Audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Sol2E.Core.csproj">
+      <Project>{BF3C34E0-EB61-485E-A0C7-38D5C074C82E}</Project>
+      <Name>Sol2E.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Graphics\Sol2E.Graphics.csproj">
+      <Project>{EC05BA10-B29F-4911-8B62-B6D477F00C68}</Project>
+      <Name>Sol2E.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Input\Sol2E.Input.csproj">
+      <Project>{827EFDC6-8CF0-4D7B-B460-9ACCA4292996}</Project>
+      <Name>Sol2E.Input</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Physics\Sol2E.Physics.csproj">
+      <Project>{D09F025D-3889-4A95-B0E7-B464535D0823}</Project>
+      <Name>Sol2E.Physics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utils\Sol2E.Utils.csproj">
+      <Project>{E26341C9-D082-433A-874F-5669F3BADC17}</Project>
+      <Name>Sol2E.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>XCOPY "$(TargetDir)*" "$(SolutionDir)..\redist\$(Configuration)" /S /I /Y
+if $(ConfigurationName) == Release XCOPY "$(TargetDir)*" "$(SolutionDir)..\template\GameTemplate\GameTemplate\lib\" /S /I /Y</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>IF EXIST "$(SolutionDir)..\redist\$(Configuration)" DEL "$(SolutionDir)..\redist\$(Configuration)\*.*" /Q
+if $(ConfigurationName) == Release IF EXIST "$(SolutionDir)..\template\GameTemplate\GameTemplate\lib\$(Configuration)" DEL "$(SolutionDir)..\template\GameTemplate\GameTemplate\lib\*.*" /Q</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

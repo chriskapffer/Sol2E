@@ -1,0 +1,41 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Sol2EGameTemplateContent</Name>
+    <Description>A content project for creating a Sol2E Game with XNA 4.0 (Windows only)</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Sol2EGameTemplateContent</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="GameTemplateContent.contentproj" File="GameTemplateContent.contentproj" ReplaceParameters="true">
+      <Folder Name="fonts" TargetFolderName="fonts">
+        <ProjectItem ReplaceParameters="false" TargetFileName="segoe08.spritefont">segoe08.spritefont</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="segoe10.spritefont">segoe10.spritefont</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="segoe10Bold.spritefont">segoe10Bold.spritefont</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="segoe12Bold.spritefont">segoe12Bold.spritefont</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="segoe14.spritefont">segoe14.spritefont</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="segoe14Bold.spritefont">segoe14Bold.spritefont</ProjectItem>
+      </Folder>
+      <Folder Name="models" TargetFolderName="models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="readme.txt">readme.txt</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Ship.fbx">Ship.fbx</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ShipDiffuse.tga">ShipDiffuse.tga</ProjectItem>
+      </Folder>
+      <Folder Name="sounds" TargetFolderName="sounds">
+        <ProjectItem ReplaceParameters="false" TargetFileName="click.wav">click.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="hit2.wav">hit2.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="music.mp3">music.mp3</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="smash.wav">smash.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="youwon.mp3">youwon.mp3</ProjectItem>
+      </Folder>
+      <Folder Name="textures" TargetFolderName="textures" />
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,1 @@
+Exclude 'ShipDiffuse.tga' from Project. It is only contained to be able to generate the template.

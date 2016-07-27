@@ -1,0 +1,56 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Sol2EGameTemplate</Name>
+    <Description>A project for creating a Sol2E Game with XNA 4.0 (Windows only)</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Sol2EGameTemplate</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="GameTemplate.csproj" File="GameTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game.ico">Game.ico</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GameEntities.cs">GameEntities.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GameLevels.cs">GameLevels.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GameMenu.cs">GameMenu.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GameScripts.cs">GameScripts.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GameTemplate1.cs">GameTemplate1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="GameThumbnail.png">GameThumbnail.png</ProjectItem>
+      <Folder Name="lib" TargetFolderName="lib">
+        <ProjectItem ReplaceParameters="true" TargetFileName="_readme.txt">_readme.txt</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="BEPUphysics.dll">BEPUphysics.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Audio.dll">Sol2E.Audio.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Audio.pdb">Sol2E.Audio.pdb</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Common.dll">Sol2E.Common.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Common.pdb">Sol2E.Common.pdb</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Core.dll">Sol2E.Core.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Core.pdb">Sol2E.Core.pdb</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.dll">Sol2E.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Graphics.dll">Sol2E.Graphics.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Graphics.pdb">Sol2E.Graphics.pdb</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Input.dll">Sol2E.Input.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Input.pdb">Sol2E.Input.pdb</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.pdb">Sol2E.pdb</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Physics.dll">Sol2E.Physics.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Physics.pdb">Sol2E.Physics.pdb</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Utils.dll">Sol2E.Utils.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Sol2E.Utils.pdb">Sol2E.Utils.pdb</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+    <!-- not working until it is a strong singed -->
+	<!--<WizardExtension>
+		<Assembly>TemplateWizardry, Version=1.0.0.0, Culture=neutral</Assembly>
+		<FullClassName>TemplateWizardry.WizardClass</FullClassName>
+	</WizardExtension>-->
+</VSTemplate>

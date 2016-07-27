@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='windows-1252'?>
+
+<?define ProductCode = "FEE12A41-6FBD-4EF7-87AE-4521BA0DA1C4" ?>
+<?define UpgradeCode = "F6E26E23-3FCA-4B13-B8A4-8D143E93FA6B" ?>
+<?define Version = "1.0.0" ?>
+
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+  <Product Name='Sol2EGameTemplate' Id='$(var.ProductCode)' UpgradeCode='$(var.UpgradeCode)'
+    Language='1033' Codepage='1252' Version='$(var.Version)' Manufacturer='ChristophKapffer'>
+
+    <Package Id='*' Keywords='Installer'
+      Description="Sol2EGameTemplate Installer"
+      Comments='Installs a ready to use template for a Sol2E game' Manufacturer='ChristophKapffer'
+      InstallerVersion='100' Languages='1033' Compressed='yes' SummaryCodepage='1252' />
+
+    <Upgrade Id="$(var.UpgradeCode)">
+      <UpgradeVersion Minimum="$(var.Version)" IncludeMinimum="no" OnlyDetect="yes" Property="NEWERVERSIONDETECTED" />
+      <UpgradeVersion Minimum="0.0.0" Maximum="$(var.Version)" IncludeMinimum="yes" IncludeMaximum="yes" Property="OLDERVERSIONBEINGUPGRADED" />
+    </Upgrade>
+
+    <Media Id='1' Cabinet='Sol2EGameTemplate.cab' EmbedCab='yes' DiskPrompt="CD-ROM #1" />
+    <Property Id='DiskPrompt' Value="Sol2EGameTemplate Installer [1]" />
+
+    <Property Id="INSTALLDIR">
+      <RegistrySearch Id='VS2010Registry' Type='raw'
+        Root='HKLM' Key='Software\Microsoft\VisualStudio\10.0' Name='InstallDir' />
+    </Property>
+
+    <Directory Id='TARGETDIR' Name='SourceDir'>
+      <Directory Id='INSTALLDIR' Name='VisualStudioDir'>
+        <Directory Id='ProjectTemplates' Name='ProjectTemplates'>
+          <Directory Id='CSharp' Name='CSharp'>
+            <Directory Id='Sol2E' Name='Sol2E'>
+            <Component Id='TemplateFile' Guid='DAB05CAA-F4FB-4045-8DBF-CECB97F73219'>
+              <File Id='Sol2EGameTemplateZip' Name='Sol2EGameTemplate.zip' DiskId='1' Source='Sol2EGameTemplate.zip' KeyPath='yes' />
+            </Component>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder" Name="Programs">
+        <Directory Id="ProgramMenuDir" Name="Sol2EGameTemplate">
+          <Component Id="ProgramMenuDir" Guid="7F095C87-80BC-4558-8D46-36C324AF4CE3">
+            <RemoveFolder Id='ProgramMenuDir' On='uninstall'/>
+            <RegistryValue Root='HKCU' Key='Software\[Manufacturer]\[ProductName]' Type='string' Value='' KeyPath='yes' />
+          </Component>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <Feature Id='Complete' Level='1'>
+      <ComponentRef Id='TemplateFile' />
+      <ComponentRef Id='ProgramMenuDir' />
+    </Feature>
+
+    <InstallExecuteSequence>
+      <RemoveExistingProducts Before="InstallInitialize" />
+      <Custom Action="NewerVersion" After="FindRelatedProducts">NEWERVERSIONDETECTED</Custom>
+      <Custom Action="VS2010InstallVSTemplates" Before="InstallFinalize" />
+    </InstallExecuteSequence>
+
+    <CustomAction Id="NewerVersion" Error="A later version of [ProductName] is already installed." />
+
+    <CustomActionRef Id="VS2010InstallVSTemplates" />
+    
+  </Product>
+</Wix>

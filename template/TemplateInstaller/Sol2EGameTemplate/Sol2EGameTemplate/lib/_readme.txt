@@ -1,0 +1,1 @@
+You can savely exclude (not remove) this folder from the Project. It is only contained to be able to generate the template.

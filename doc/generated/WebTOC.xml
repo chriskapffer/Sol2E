@@ -1,0 +1,1389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="0e3f1485-502c-4702-8da5-e0f1d3fc08aa" Title="Sol2E Game Engine" Url="html/R_Project_Sol2E_Documentation.htm">
+    <HelpTOCNode Id="e645f620-8373-4e9b-8952-12421ecdf0cc" Title="Sol2E Namespace" Url="html/N_Sol2E.htm">
+      <HelpTOCNode Id="c362bab2-e2bb-405a-8233-d066b2204543" Title="Constants Class" Url="html/T_Sol2E_Constants.htm">
+        <HelpTOCNode Title="Constants Members" Url="html/AllMembers_T_Sol2E_Constants.htm" />
+        <HelpTOCNode Id="75bc1084-c730-4100-bdb7-b8948ebf81de" Title="Constants Methods" Url="html/Methods_T_Sol2E_Constants.htm">
+          <HelpTOCNode Title="ToKiloBytes Method " Url="html/M_Sol2E_Constants_ToKiloBytes.htm" />
+          <HelpTOCNode Title="ToMegaBytes Method " Url="html/M_Sol2E_Constants_ToMegaBytes.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="GameEventHandler Delegate" Url="html/T_Sol2E_GameEventHandler.htm" />
+      <HelpTOCNode Id="814261ec-1756-400b-8146-9fc1aba2260c" Title="ResourceManager Class" Url="html/T_Sol2E_ResourceManager.htm">
+        <HelpTOCNode Title="ResourceManager Members" Url="html/AllMembers_T_Sol2E_ResourceManager.htm" />
+        <HelpTOCNode Title="ResourceManager Constructor " Url="html/M_Sol2E_ResourceManager__ctor.htm" />
+        <HelpTOCNode Id="12eb6b5b-9d87-4785-9dc6-15a04b935327" Title="ResourceManager Fields" Url="html/Fields_T_Sol2E_ResourceManager.htm">
+          <HelpTOCNode Title="_contentManager Field" Url="html/F_Sol2E_ResourceManager__contentManager.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0abcacbf-cdce-4c4d-a3e3-b557b789c38f" Title="ResourceManager Methods" Url="html/Methods_T_Sol2E_ResourceManager.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Sol2E_ResourceManager_Dispose.htm" />
+          <HelpTOCNode Title="Load(T) Method " Url="html/M_Sol2E_ResourceManager_Load__1.htm" />
+          <HelpTOCNode Title="UnloadAll Method " Url="html/M_Sol2E_ResourceManager_UnloadAll.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1b4e183a-b71c-4660-86c0-5ce281ef6359" Title="ResourceManager Properties" Url="html/Properties_T_Sol2E_ResourceManager.htm">
+          <HelpTOCNode Title="ResourceDirectory Property " Url="html/P_Sol2E_ResourceManager_ResourceDirectory.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="84a77218-4705-4281-9c8f-c741ac13ffac" Title="Sol2EGame Class" Url="html/T_Sol2E_Sol2EGame.htm">
+        <HelpTOCNode Title="Sol2EGame Members" Url="html/AllMembers_T_Sol2E_Sol2EGame.htm" />
+        <HelpTOCNode Title="Sol2EGame Constructor " Url="html/M_Sol2E_Sol2EGame__ctor.htm" />
+        <HelpTOCNode Id="7687b3b7-1093-48a0-8e47-d6415553686f" Title="Sol2EGame Fields" Url="html/Fields_T_Sol2E_Sol2EGame.htm">
+          <HelpTOCNode Title="_debugInfoUpdateTotalMiliseconds Field" Url="html/F_Sol2E_Sol2EGame__debugInfoUpdateTotalMiliseconds.htm" />
+          <HelpTOCNode Title="_domainSystems Field" Url="html/F_Sol2E_Sol2EGame__domainSystems.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3786a70b-9ed7-4192-8277-57f549011ab5" Title="Sol2EGame Methods" Url="html/Methods_T_Sol2E_Sol2EGame.htm">
+          <HelpTOCNode Title="AddDomainSystem Method " Url="html/M_Sol2E_Sol2EGame_AddDomainSystem.htm" />
+          <HelpTOCNode Title="ChangeWindowSize Method " Url="html/M_Sol2E_Sol2EGame_ChangeWindowSize.htm" />
+          <HelpTOCNode Title="CreateResourceManager Method " Url="html/M_Sol2E_Sol2EGame_CreateResourceManager.htm" />
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Sol2E_Sol2EGame_Dispose.htm" />
+          <HelpTOCNode Title="Draw Method " Url="html/M_Sol2E_Sol2EGame_Draw.htm" />
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Sol2E_Sol2EGame_Initialize.htm" />
+          <HelpTOCNode Title="LoadContent Method " Url="html/M_Sol2E_Sol2EGame_LoadContent.htm" />
+          <HelpTOCNode Title="RemoveDomainSystem Method " Url="html/M_Sol2E_Sol2EGame_RemoveDomainSystem.htm" />
+          <HelpTOCNode Title="UnloadContent Method " Url="html/M_Sol2E_Sol2EGame_UnloadContent.htm" />
+          <HelpTOCNode Title="Update Method " Url="html/M_Sol2E_Sol2EGame_Update.htm" />
+          <HelpTOCNode Title="UpdateDebugInfo Method " Url="html/M_Sol2E_Sol2EGame_UpdateDebugInfo.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="05c8d21b-8d14-4ef0-9ccc-33fd347d9fcc" Title="Sol2EGame Properties" Url="html/Properties_T_Sol2E_Sol2EGame.htm">
+          <HelpTOCNode Title="AudioSystem Property " Url="html/P_Sol2E_Sol2EGame_AudioSystem.htm" />
+          <HelpTOCNode Title="DebugInfo Property " Url="html/P_Sol2E_Sol2EGame_DebugInfo.htm" />
+          <HelpTOCNode Title="DebugInfoUpdateInterval Property " Url="html/P_Sol2E_Sol2EGame_DebugInfoUpdateInterval.htm" />
+          <HelpTOCNode Title="FullScreenBackBufferHeight Property " Url="html/P_Sol2E_Sol2EGame_FullScreenBackBufferHeight.htm" />
+          <HelpTOCNode Title="FullScreenBackBufferWidth Property " Url="html/P_Sol2E_Sol2EGame_FullScreenBackBufferWidth.htm" />
+          <HelpTOCNode Title="GraphicsSystem Property " Url="html/P_Sol2E_Sol2EGame_GraphicsSystem.htm" />
+          <HelpTOCNode Title="InputSystem Property " Url="html/P_Sol2E_Sol2EGame_InputSystem.htm" />
+          <HelpTOCNode Title="IsFullScreen Property " Url="html/P_Sol2E_Sol2EGame_IsFullScreen.htm" />
+          <HelpTOCNode Title="IsMouseLocked Property " Url="html/P_Sol2E_Sol2EGame_IsMouseLocked.htm" />
+          <HelpTOCNode Title="IsPaused Property " Url="html/P_Sol2E_Sol2EGame_IsPaused.htm" />
+          <HelpTOCNode Title="PhysicsSystem Property " Url="html/P_Sol2E_Sol2EGame_PhysicsSystem.htm" />
+          <HelpTOCNode Title="SceneManager Property " Url="html/P_Sol2E_Sol2EGame_SceneManager.htm" />
+          <HelpTOCNode Title="WindowBackBufferHeight Property " Url="html/P_Sol2E_Sol2EGame_WindowBackBufferHeight.htm" />
+          <HelpTOCNode Title="WindowBackBufferWidth Property " Url="html/P_Sol2E_Sol2EGame_WindowBackBufferWidth.htm" />
+          <HelpTOCNode Title="XnaGraphicsDevice Property " Url="html/P_Sol2E_Sol2EGame_XnaGraphicsDevice.htm" />
+          <HelpTOCNode Title="XnaGraphicsDeviceManager Property " Url="html/P_Sol2E_Sol2EGame_XnaGraphicsDeviceManager.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="39a1d762-a699-4fff-91f2-6d1b37716ba1" Title="Sol2EGame Events" Url="html/Events_T_Sol2E_Sol2EGame.htm">
+          <HelpTOCNode Title="DebugInfoChanged Event" Url="html/E_Sol2E_Sol2EGame_DebugInfoChanged.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="aa770f0d-de77-49a8-be07-988bbbfbde64" Title="VitalGameMethods Class" Url="html/T_Sol2E_VitalGameMethods.htm">
+        <HelpTOCNode Title="VitalGameMethods Members" Url="html/AllMembers_T_Sol2E_VitalGameMethods.htm" />
+        <HelpTOCNode Id="21907987-0c7c-4a0d-bf98-634f50a7a368" Title="VitalGameMethods Methods" Url="html/Methods_T_Sol2E_VitalGameMethods.htm">
+          <HelpTOCNode Title="DiskRestore Method " Url="html/M_Sol2E_VitalGameMethods_DiskRestore.htm" />
+          <HelpTOCNode Title="DiskSave Method " Url="html/M_Sol2E_VitalGameMethods_DiskSave.htm" />
+          <HelpTOCNode Title="Exit Method " Url="html/M_Sol2E_VitalGameMethods_Exit.htm" />
+          <HelpTOCNode Title="LoadNextScene Method " Url="html/M_Sol2E_VitalGameMethods_LoadNextScene.htm" />
+          <HelpTOCNode Title="LoadPreviousScene Method " Url="html/M_Sol2E_VitalGameMethods_LoadPreviousScene.htm" />
+          <HelpTOCNode Id="041d99ae-b03d-4594-aceb-3ee6e6105d42" Title="LoadScene Method " Url="html/Overload_Sol2E_VitalGameMethods_LoadScene.htm">
+            <HelpTOCNode Title="LoadScene Method (Int32)" Url="html/M_Sol2E_VitalGameMethods_LoadScene.htm" />
+            <HelpTOCNode Title="LoadScene Method (String)" Url="html/M_Sol2E_VitalGameMethods_LoadScene_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Pause Method " Url="html/M_Sol2E_VitalGameMethods_Pause.htm" />
+          <HelpTOCNode Title="QuickRestore Method " Url="html/M_Sol2E_VitalGameMethods_QuickRestore.htm" />
+          <HelpTOCNode Title="QuickSave Method " Url="html/M_Sol2E_VitalGameMethods_QuickSave.htm" />
+          <HelpTOCNode Title="RestartCurrentScene Method " Url="html/M_Sol2E_VitalGameMethods_RestartCurrentScene.htm" />
+          <HelpTOCNode Title="Resume Method " Url="html/M_Sol2E_VitalGameMethods_Resume.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="08924e1c-3ecd-44e0-8fb0-22151dcff5be" Title="VitalGameMethods Properties" Url="html/Properties_T_Sol2E_VitalGameMethods.htm">
+          <HelpTOCNode Title="DistanceScale Property " Url="html/P_Sol2E_VitalGameMethods_DistanceScale.htm" />
+          <HelpTOCNode Title="DopplerScale Property " Url="html/P_Sol2E_VitalGameMethods_DopplerScale.htm" />
+          <HelpTOCNode Title="Game Property " Url="html/P_Sol2E_VitalGameMethods_Game.htm" />
+          <HelpTOCNode Title="IsFullScreen Property " Url="html/P_Sol2E_VitalGameMethods_IsFullScreen.htm" />
+          <HelpTOCNode Title="IsMouseLocked Property " Url="html/P_Sol2E_VitalGameMethods_IsMouseLocked.htm" />
+          <HelpTOCNode Title="IsMouseVisible Property " Url="html/P_Sol2E_VitalGameMethods_IsMouseVisible.htm" />
+          <HelpTOCNode Title="IsPaused Property " Url="html/P_Sol2E_VitalGameMethods_IsPaused.htm" />
+          <HelpTOCNode Title="IterationLimit Property " Url="html/P_Sol2E_VitalGameMethods_IterationLimit.htm" />
+          <HelpTOCNode Title="LightingEnabled Property " Url="html/P_Sol2E_VitalGameMethods_LightingEnabled.htm" />
+          <HelpTOCNode Title="MasterVolume Property " Url="html/P_Sol2E_VitalGameMethods_MasterVolume.htm" />
+          <HelpTOCNode Title="MaxStepsPerFrame Property " Url="html/P_Sol2E_VitalGameMethods_MaxStepsPerFrame.htm" />
+          <HelpTOCNode Title="PreferPerPixelLighting Property " Url="html/P_Sol2E_VitalGameMethods_PreferPerPixelLighting.htm" />
+          <HelpTOCNode Title="RenderWireframe Property " Url="html/P_Sol2E_VitalGameMethods_RenderWireframe.htm" />
+          <HelpTOCNode Title="ScreenRect Property " Url="html/P_Sol2E_VitalGameMethods_ScreenRect.htm" />
+          <HelpTOCNode Title="SpeedOfSound Property " Url="html/P_Sol2E_VitalGameMethods_SpeedOfSound.htm" />
+          <HelpTOCNode Title="TextureEnabled Property " Url="html/P_Sol2E_VitalGameMethods_TextureEnabled.htm" />
+          <HelpTOCNode Title="UseFixedTimeSteps Property " Url="html/P_Sol2E_VitalGameMethods_UseFixedTimeSteps.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eacd1800-56a8-46e7-8803-0110f2253660" Title="Sol2E.Audio Namespace" Url="html/N_Sol2E_Audio.htm">
+      <HelpTOCNode Id="699b5cb7-1c3b-4977-8b61-6ad58af5ac7c" Title="AudioListener Class" Url="html/T_Sol2E_Audio_AudioListener.htm">
+        <HelpTOCNode Title="AudioListener Members" Url="html/AllMembers_T_Sol2E_Audio_AudioListener.htm" />
+        <HelpTOCNode Title="AudioListener Constructor " Url="html/M_Sol2E_Audio_AudioListener__ctor.htm" />
+        <HelpTOCNode Title="AudioListener Methods" Url="html/Methods_T_Sol2E_Audio_AudioListener.htm" />
+        <HelpTOCNode Id="b6496ab6-e93d-4e75-8aff-48b20a46840a" Title="AudioListener Properties" Url="html/Properties_T_Sol2E_Audio_AudioListener.htm">
+          <HelpTOCNode Title="ActiveListener Property " Url="html/P_Sol2E_Audio_AudioListener_ActiveListener.htm" />
+          <HelpTOCNode Title="IsActive Property " Url="html/P_Sol2E_Audio_AudioListener_IsActive.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="7a78a0fd-41b9-4c31-b25f-0ef8749876ae" Title="AudioSource Class" Url="html/T_Sol2E_Audio_AudioSource.htm">
+        <HelpTOCNode Title="AudioSource Members" Url="html/AllMembers_T_Sol2E_Audio_AudioSource.htm" />
+        <HelpTOCNode Title="AudioSource Constructor " Url="html/M_Sol2E_Audio_AudioSource__ctor.htm" />
+        <HelpTOCNode Id="0c2fc32e-4ded-489b-8291-5ed769ece7c7" Title="AudioSource Fields" Url="html/Fields_T_Sol2E_Audio_AudioSource.htm">
+          <HelpTOCNode Title="_assetName Field" Url="html/F_Sol2E_Audio_AudioSource__assetName.htm" />
+          <HelpTOCNode Title="_is3D Field" Url="html/F_Sol2E_Audio_AudioSource__is3D.htm" />
+          <HelpTOCNode Title="_isLooped Field" Url="html/F_Sol2E_Audio_AudioSource__isLooped.htm" />
+          <HelpTOCNode Title="_isPaused Field" Url="html/F_Sol2E_Audio_AudioSource__isPaused.htm" />
+          <HelpTOCNode Title="_isPlaying Field" Url="html/F_Sol2E_Audio_AudioSource__isPlaying.htm" />
+          <HelpTOCNode Title="_isStopped Field" Url="html/F_Sol2E_Audio_AudioSource__isStopped.htm" />
+          <HelpTOCNode Title="_pan Field" Url="html/F_Sol2E_Audio_AudioSource__pan.htm" />
+          <HelpTOCNode Title="_pitch Field" Url="html/F_Sol2E_Audio_AudioSource__pitch.htm" />
+          <HelpTOCNode Title="_playsOnStartUp Field" Url="html/F_Sol2E_Audio_AudioSource__playsOnStartUp.htm" />
+          <HelpTOCNode Title="_volume Field" Url="html/F_Sol2E_Audio_AudioSource__volume.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c1c62365-f220-4dca-9c7f-e1bc80c32ddf" Title="AudioSource Methods" Url="html/Methods_T_Sol2E_Audio_AudioSource.htm">
+          <HelpTOCNode Title="Pause Method " Url="html/M_Sol2E_Audio_AudioSource_Pause.htm" />
+          <HelpTOCNode Title="Play Method " Url="html/M_Sol2E_Audio_AudioSource_Play.htm" />
+          <HelpTOCNode Title="Stop Method " Url="html/M_Sol2E_Audio_AudioSource_Stop.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="97113a68-4b89-4767-b982-ddafdec9f479" Title="AudioSource Properties" Url="html/Properties_T_Sol2E_Audio_AudioSource.htm">
+          <HelpTOCNode Title="AssetName Property " Url="html/P_Sol2E_Audio_AudioSource_AssetName.htm" />
+          <HelpTOCNode Title="Is3D Property " Url="html/P_Sol2E_Audio_AudioSource_Is3D.htm" />
+          <HelpTOCNode Title="IsLooped Property " Url="html/P_Sol2E_Audio_AudioSource_IsLooped.htm" />
+          <HelpTOCNode Title="IsPaused Property " Url="html/P_Sol2E_Audio_AudioSource_IsPaused.htm" />
+          <HelpTOCNode Title="IsPlaying Property " Url="html/P_Sol2E_Audio_AudioSource_IsPlaying.htm" />
+          <HelpTOCNode Title="IsStopped Property " Url="html/P_Sol2E_Audio_AudioSource_IsStopped.htm" />
+          <HelpTOCNode Title="Pan Property " Url="html/P_Sol2E_Audio_AudioSource_Pan.htm" />
+          <HelpTOCNode Title="Pitch Property " Url="html/P_Sol2E_Audio_AudioSource_Pitch.htm" />
+          <HelpTOCNode Title="PlaysOnStartUp Property " Url="html/P_Sol2E_Audio_AudioSource_PlaysOnStartUp.htm" />
+          <HelpTOCNode Title="Volume Property " Url="html/P_Sol2E_Audio_AudioSource_Volume.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="16912c7a-a72e-4a21-9b5d-34aeed010b31" Title="AudioSystem Class" Url="html/T_Sol2E_Audio_AudioSystem.htm">
+        <HelpTOCNode Title="AudioSystem Members" Url="html/AllMembers_T_Sol2E_Audio_AudioSystem.htm" />
+        <HelpTOCNode Title="AudioSystem Constructor " Url="html/M_Sol2E_Audio_AudioSystem__ctor.htm" />
+        <HelpTOCNode Id="1dd43664-4ab4-435a-b405-260d0293e4be" Title="AudioSystem Fields" Url="html/Fields_T_Sol2E_Audio_AudioSystem.htm">
+          <HelpTOCNode Title="Emitter Field" Url="html/F_Sol2E_Audio_AudioSystem_Emitter.htm" />
+          <HelpTOCNode Title="Listener Field" Url="html/F_Sol2E_Audio_AudioSystem_Listener.htm" />
+          <HelpTOCNode Title="SoundEffects Field" Url="html/F_Sol2E_Audio_AudioSystem_SoundEffects.htm" />
+          <HelpTOCNode Title="SoundInstances Field" Url="html/F_Sol2E_Audio_AudioSystem_SoundInstances.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2529c3bd-9343-49cd-a764-6176e5f2a50d" Title="AudioSystem Methods" Url="html/Methods_T_Sol2E_Audio_AudioSystem.htm">
+          <HelpTOCNode Title="AddEntityResources Method " Url="html/M_Sol2E_Audio_AudioSystem_AddEntityResources.htm" />
+          <HelpTOCNode Title="AudioSourceChanged Method " Url="html/M_Sol2E_Audio_AudioSystem_AudioSourceChanged.htm" />
+          <HelpTOCNode Id="a564ea09-2f92-4560-be6b-8f721b39dc30" Title="Dispose Method " Url="html/Overload_Sol2E_Audio_AudioSystem_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Sol2E_Audio_AudioSystem_Dispose.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="EntityChanged Method " Url="html/M_Sol2E_Audio_AudioSystem_EntityChanged.htm" />
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Sol2E_Audio_AudioSystem_Initialize.htm" />
+          <HelpTOCNode Title="LoadSoundEffect Method " Url="html/M_Sol2E_Audio_AudioSystem_LoadSoundEffect.htm" />
+          <HelpTOCNode Title="RemoveEntityResources Method " Url="html/M_Sol2E_Audio_AudioSystem_RemoveEntityResources.htm" />
+          <HelpTOCNode Title="SceneChanged Method " Url="html/M_Sol2E_Audio_AudioSystem_SceneChanged.htm" />
+          <HelpTOCNode Title="SetupSoundInstanceFromAudioSource Method " Url="html/M_Sol2E_Audio_AudioSystem_SetupSoundInstanceFromAudioSource.htm" />
+          <HelpTOCNode Title="UnloadSoundEffect Method " Url="html/M_Sol2E_Audio_AudioSystem_UnloadSoundEffect.htm" />
+          <HelpTOCNode Id="7d24d0d4-0e1c-4722-9455-611c20bf0a5b" Title="Update Method " Url="html/Overload_Sol2E_Audio_AudioSystem_Update.htm">
+            <HelpTOCNode Title="Update Method (Single)" Url="html/M_Sol2E_Audio_AudioSystem_Update.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="8e69baa4-0639-4523-a571-6d92eb6c05e6" Title="AudioSystem Properties" Url="html/Properties_T_Sol2E_Audio_AudioSystem.htm">
+          <HelpTOCNode Title="DistanceScale Property " Url="html/P_Sol2E_Audio_AudioSystem_DistanceScale.htm" />
+          <HelpTOCNode Title="DopplerScale Property " Url="html/P_Sol2E_Audio_AudioSystem_DopplerScale.htm" />
+          <HelpTOCNode Title="MasterVolume Property " Url="html/P_Sol2E_Audio_AudioSystem_MasterVolume.htm" />
+          <HelpTOCNode Title="SpeedOfSound Property " Url="html/P_Sol2E_Audio_AudioSystem_SpeedOfSound.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3e3fa8d8-c96e-4f30-9b15-3f8f761e102d" Title="Sol2E.Common Namespace" Url="html/N_Sol2E_Common.htm">
+      <HelpTOCNode Id="a4c13903-7bf0-42df-84c3-473f5af93947" Title="ChangeScript(T) Class" Url="html/T_Sol2E_Common_ChangeScript_1.htm">
+        <HelpTOCNode Title="ChangeScript(T) Members" Url="html/AllMembers_T_Sol2E_Common_ChangeScript_1.htm" />
+        <HelpTOCNode Title="ChangeScript(T) Constructor " Url="html/M_Sol2E_Common_ChangeScript_1__ctor.htm" />
+        <HelpTOCNode Id="0dbde9a4-a247-4d18-9961-797028f49479" Title="ChangeScript(T) Methods" Url="html/Methods_T_Sol2E_Common_ChangeScript_1.htm">
+          <HelpTOCNode Title="OnChange Method " Url="html/M_Sol2E_Common_ChangeScript_1_OnChange.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ChangeScript(T) Properties" Url="html/Properties_T_Sol2E_Common_ChangeScript_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59869fd5-2f20-4c41-996a-91007ea9e690" Title="EntityInfo Class" Url="html/T_Sol2E_Common_EntityInfo.htm">
+        <HelpTOCNode Title="EntityInfo Members" Url="html/AllMembers_T_Sol2E_Common_EntityInfo.htm" />
+        <HelpTOCNode Id="aca67c48-f05c-44f2-be43-d76b88d6c388" Title="EntityInfo Constructor " Url="html/Overload_Sol2E_Common_EntityInfo__ctor.htm">
+          <HelpTOCNode Title="EntityInfo Constructor " Url="html/M_Sol2E_Common_EntityInfo__ctor.htm" />
+          <HelpTOCNode Title="EntityInfo Constructor (String, Object)" Url="html/M_Sol2E_Common_EntityInfo__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="EntityInfo Methods" Url="html/Methods_T_Sol2E_Common_EntityInfo.htm" />
+        <HelpTOCNode Id="b2419f25-226f-4fcf-8279-bf7844cd93d0" Title="EntityInfo Properties" Url="html/Properties_T_Sol2E_Common_EntityInfo.htm">
+          <HelpTOCNode Title="Data Property " Url="html/P_Sol2E_Common_EntityInfo_Data.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Sol2E_Common_EntityInfo_Name.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3648886c-4af2-48fb-9995-28ca38173100" Title="Mesh Class" Url="html/T_Sol2E_Common_Mesh.htm">
+        <HelpTOCNode Title="Mesh Members" Url="html/AllMembers_T_Sol2E_Common_Mesh.htm" />
+        <HelpTOCNode Title="Mesh Constructor " Url="html/M_Sol2E_Common_Mesh__ctor.htm" />
+        <HelpTOCNode Id="6bf1e073-1a92-4de9-a7a8-f4588fac8c89" Title="Mesh Methods" Url="html/Methods_T_Sol2E_Common_Mesh.htm">
+          <HelpTOCNode Title="BoundingBoxFromVertexArray Method " Url="html/M_Sol2E_Common_Mesh_BoundingBoxFromVertexArray.htm" />
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Sol2E_Common_Mesh_Initialize.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="097a2a4b-5ddb-43c2-8533-ecdc17093246" Title="Mesh Properties" Url="html/Properties_T_Sol2E_Common_Mesh.htm">
+          <HelpTOCNode Title="BoundingBox Property " Url="html/P_Sol2E_Common_Mesh_BoundingBox.htm" />
+          <HelpTOCNode Title="IndexArray Property " Url="html/P_Sol2E_Common_Mesh_IndexArray.htm" />
+          <HelpTOCNode Title="VertexArray Property " Url="html/P_Sol2E_Common_Mesh_VertexArray.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="768183e8-2089-4d31-9e95-68ceceeda51e" Title="ModelMesh Class" Url="html/T_Sol2E_Common_ModelMesh.htm">
+        <HelpTOCNode Title="ModelMesh Members" Url="html/AllMembers_T_Sol2E_Common_ModelMesh.htm" />
+        <HelpTOCNode Id="9ee28ba1-ea99-4a56-a15b-9250bd16b2d9" Title="ModelMesh Constructor " Url="html/Overload_Sol2E_Common_ModelMesh__ctor.htm">
+          <HelpTOCNode Title="ModelMesh Constructor (String, Single)" Url="html/M_Sol2E_Common_ModelMesh__ctor.htm" />
+          <HelpTOCNode Title="ModelMesh Constructor (String, Single, )" Url="html/M_Sol2E_Common_ModelMesh__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="370d29a1-de85-4f99-8bd3-57f74268d419" Title="ModelMesh Methods" Url="html/Methods_T_Sol2E_Common_ModelMesh.htm">
+          <HelpTOCNode Title="GetVerticesAndIndicesFromModel Method " Url="html/M_Sol2E_Common_ModelMesh_GetVerticesAndIndicesFromModel.htm" />
+          <HelpTOCNode Title="GetVerticesAndIndicesFromModelMesh Method " Url="html/M_Sol2E_Common_ModelMesh_GetVerticesAndIndicesFromModelMesh.htm" />
+          <HelpTOCNode Title="GetVerticesAndIndicesFromModelMeshPart Method " Url="html/M_Sol2E_Common_ModelMesh_GetVerticesAndIndicesFromModelMeshPart.htm" />
+          <HelpTOCNode Id="92cb8bc6-286d-4e57-bed4-37cf052db802" Title="Initialize Method " Url="html/Overload_Sol2E_Common_ModelMesh_Initialize.htm">
+            <HelpTOCNode Title="Initialize Method ()" Url="html/M_Sol2E_Common_ModelMesh_Initialize.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="4b5947ad-8c9a-4c12-b39c-5216c0ffd4d9" Title="ModelMesh Properties" Url="html/Properties_T_Sol2E_Common_ModelMesh.htm">
+          <HelpTOCNode Title="IsInitialized Property " Url="html/P_Sol2E_Common_ModelMesh_IsInitialized.htm" />
+          <HelpTOCNode Title="LocalTransform Property " Url="html/P_Sol2E_Common_ModelMesh_LocalTransform.htm" />
+          <HelpTOCNode Title="ModelName Property " Url="html/P_Sol2E_Common_ModelMesh_ModelName.htm" />
+          <HelpTOCNode Title="Scale Property " Url="html/P_Sol2E_Common_ModelMesh_Scale.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="38fcfa40-3539-4328-a4a5-0fdb5676c017" Title="Movement Class" Url="html/T_Sol2E_Common_Movement.htm">
+        <HelpTOCNode Title="Movement Members" Url="html/AllMembers_T_Sol2E_Common_Movement.htm" />
+        <HelpTOCNode Title="Movement Constructor " Url="html/M_Sol2E_Common_Movement__ctor.htm" />
+        <HelpTOCNode Title="Movement Constructor " Url="html/M_Sol2E_Common_Movement__cctor.htm" />
+        <HelpTOCNode Id="fe1f21d9-83ce-4437-9c06-686cadef6946" Title="Movement Fields" Url="html/Fields_T_Sol2E_Common_Movement.htm">
+          <HelpTOCNode Title="_angularMomentum Field" Url="html/F_Sol2E_Common_Movement__angularMomentum.htm" />
+          <HelpTOCNode Title="_angularVelocity Field" Url="html/F_Sol2E_Common_Movement__angularVelocity.htm" />
+          <HelpTOCNode Title="_linearMomentum Field" Url="html/F_Sol2E_Common_Movement__linearMomentum.htm" />
+          <HelpTOCNode Title="_linearVelocity Field" Url="html/F_Sol2E_Common_Movement__linearVelocity.htm" />
+          <HelpTOCNode Title="Default Field" Url="html/F_Sol2E_Common_Movement_Default.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Movement Methods" Url="html/Methods_T_Sol2E_Common_Movement.htm" />
+        <HelpTOCNode Id="bdd8832a-a79a-4442-83e2-a98b52fe5392" Title="Movement Properties" Url="html/Properties_T_Sol2E_Common_Movement.htm">
+          <HelpTOCNode Title="AngularMomentum Property " Url="html/P_Sol2E_Common_Movement_AngularMomentum.htm" />
+          <HelpTOCNode Title="AngularVelocity Property " Url="html/P_Sol2E_Common_Movement_AngularVelocity.htm" />
+          <HelpTOCNode Title="LinearMomentum Property " Url="html/P_Sol2E_Common_Movement_LinearMomentum.htm" />
+          <HelpTOCNode Title="LinearVelocity Property " Url="html/P_Sol2E_Common_Movement_LinearVelocity.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1335ec55-2a6e-4c27-abf2-40abfc35a5e0" Title="ScriptCollection(T) Class" Url="html/T_Sol2E_Common_ScriptCollection_1.htm">
+        <HelpTOCNode Title="ScriptCollection(T) Members" Url="html/AllMembers_T_Sol2E_Common_ScriptCollection_1.htm" />
+        <HelpTOCNode Id="e3f48ccd-10ce-47f8-83b4-650cccd5ac4b" Title="ScriptCollection(T) Constructor " Url="html/Overload_Sol2E_Common_ScriptCollection_1__ctor.htm">
+          <HelpTOCNode Title="ScriptCollection(T) Constructor " Url="html/M_Sol2E_Common_ScriptCollection_1__ctor.htm" />
+          <HelpTOCNode Title="ScriptCollection(T) Constructor (IEnumerable(T))" Url="html/M_Sol2E_Common_ScriptCollection_1__ctor_1.htm" />
+          <HelpTOCNode Title="ScriptCollection(T) Constructor (T)" Url="html/M_Sol2E_Common_ScriptCollection_1__ctor_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a0872ad9-c61f-4704-9b21-61bf649f7074" Title="ScriptCollection(T) Fields" Url="html/Fields_T_Sol2E_Common_ScriptCollection_1.htm">
+          <HelpTOCNode Title="_scripts Field" Url="html/F_Sol2E_Common_ScriptCollection_1__scripts.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="63ee6ddb-a6ad-4acf-bd4a-3b4ddb829bc8" Title="ScriptCollection(T) Methods" Url="html/Methods_T_Sol2E_Common_ScriptCollection_1.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Sol2E_Common_ScriptCollection_1_Add.htm" />
+          <HelpTOCNode Title="AddSingle Method " Url="html/M_Sol2E_Common_ScriptCollection_1_AddSingle.htm" />
+          <HelpTOCNode Title="Contains Method " Url="html/M_Sol2E_Common_ScriptCollection_1_Contains.htm" />
+          <HelpTOCNode Id="2d7d8783-6521-4744-862e-fb1e4d4e2a28" Title="GetAllScripts Method " Url="html/Overload_Sol2E_Common_ScriptCollection_1_GetAllScripts.htm">
+            <HelpTOCNode Title="GetAllScripts(TSub) Method " Url="html/M_Sol2E_Common_ScriptCollection_1_GetAllScripts__1.htm" />
+            <HelpTOCNode Title="GetAllScripts Method (Type)" Url="html/M_Sol2E_Common_ScriptCollection_1_GetAllScripts.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="GetEnumerator Method " Url="html/M_Sol2E_Common_ScriptCollection_1_GetEnumerator.htm" />
+          <HelpTOCNode Id="e0e60a01-8868-4373-858e-eade4e96296e" Title="GetSingleScript Method " Url="html/Overload_Sol2E_Common_ScriptCollection_1_GetSingleScript.htm">
+            <HelpTOCNode Title="GetSingleScript(TSub) Method " Url="html/M_Sol2E_Common_ScriptCollection_1_GetSingleScript__1.htm" />
+            <HelpTOCNode Title="GetSingleScript Method (Type)" Url="html/M_Sol2E_Common_ScriptCollection_1_GetSingleScript.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Remove Method " Url="html/M_Sol2E_Common_ScriptCollection_1_Remove.htm" />
+          <HelpTOCNode Title="RemoveSingle Method " Url="html/M_Sol2E_Common_ScriptCollection_1_RemoveSingle.htm" />
+          <HelpTOCNode Title="ToList Method " Url="html/M_Sol2E_Common_ScriptCollection_1_ToList.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a0b01436-638a-4d8e-b37f-75a16888a786" Title="ScriptCollection(T) Properties" Url="html/Properties_T_Sol2E_Common_ScriptCollection_1.htm">
+          <HelpTOCNode Title="ItemCount Property " Url="html/P_Sol2E_Common_ScriptCollection_1_ItemCount.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="51b3578e-4406-438d-997f-d5989e89fd21" Title="ScriptCollectionItem Class" Url="html/T_Sol2E_Common_ScriptCollectionItem.htm">
+        <HelpTOCNode Title="ScriptCollectionItem Members" Url="html/AllMembers_T_Sol2E_Common_ScriptCollectionItem.htm" />
+        <HelpTOCNode Title="ScriptCollectionItem Constructor " Url="html/M_Sol2E_Common_ScriptCollectionItem__ctor.htm" />
+        <HelpTOCNode Id="586f81be-b4f1-458e-940b-13febfed604e" Title="ScriptCollectionItem Properties" Url="html/Properties_T_Sol2E_Common_ScriptCollectionItem.htm">
+          <HelpTOCNode Title="IdOfHostingComponent Property " Url="html/P_Sol2E_Common_ScriptCollectionItem_IdOfHostingComponent.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c3f767d1-8319-4e37-a026-98473dec44c7" Title="SimpleMesh Class" Url="html/T_Sol2E_Common_SimpleMesh.htm">
+        <HelpTOCNode Title="SimpleMesh Members" Url="html/AllMembers_T_Sol2E_Common_SimpleMesh.htm" />
+        <HelpTOCNode Title="SimpleMesh Constructor " Url="html/M_Sol2E_Common_SimpleMesh__ctor.htm" />
+        <HelpTOCNode Title="SimpleMesh Methods" Url="html/Methods_T_Sol2E_Common_SimpleMesh.htm" />
+        <HelpTOCNode Id="f91b3976-6bc8-458a-a590-1f38eabc8b54" Title="SimpleMesh Properties" Url="html/Properties_T_Sol2E_Common_SimpleMesh.htm">
+          <HelpTOCNode Title="NormalArray Property " Url="html/P_Sol2E_Common_SimpleMesh_NormalArray.htm" />
+          <HelpTOCNode Title="TextureArray Property " Url="html/P_Sol2E_Common_SimpleMesh_TextureArray.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="cd1de3ca-3fdd-496b-9977-e1fa4ad20f34" Title="SimpleMeshFactory Class" Url="html/T_Sol2E_Common_SimpleMeshFactory.htm">
+        <HelpTOCNode Title="SimpleMeshFactory Members" Url="html/AllMembers_T_Sol2E_Common_SimpleMeshFactory.htm" />
+        <HelpTOCNode Id="572b33bf-559f-477c-87e6-37e1e456e1cd" Title="SimpleMeshFactory Fields" Url="html/Fields_T_Sol2E_Common_SimpleMeshFactory.htm">
+          <HelpTOCNode Title="DefaultTessellation Field" Url="html/F_Sol2E_Common_SimpleMeshFactory_DefaultTessellation.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e3a70f71-cfec-45be-b17f-1cd89dc96670" Title="SimpleMeshFactory Methods" Url="html/Methods_T_Sol2E_Common_SimpleMeshFactory.htm">
+          <HelpTOCNode Id="0d4c5c1f-9fd5-4264-8dfa-1283bc5cab3f" Title="CreateCapsule Method " Url="html/Overload_Sol2E_Common_SimpleMeshFactory_CreateCapsule.htm">
+            <HelpTOCNode Title="CreateCapsule Method " Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCapsule.htm" />
+            <HelpTOCNode Title="CreateCapsule Method (Single, Single)" Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCapsule_1.htm" />
+            <HelpTOCNode Title="CreateCapsule Method (Single, Single, Int32)" Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCapsule_2.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="64010fe3-85cb-426f-beb8-86f749924104" Title="CreateCone Method " Url="html/Overload_Sol2E_Common_SimpleMeshFactory_CreateCone.htm">
+            <HelpTOCNode Title="CreateCone Method " Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCone.htm" />
+            <HelpTOCNode Title="CreateCone Method (Single, Single)" Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCone_1.htm" />
+            <HelpTOCNode Title="CreateCone Method (Single, Single, Int32)" Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCone_2.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="7e43aab0-39ab-4fdd-812d-0db060b6f842" Title="CreateCube Method " Url="html/Overload_Sol2E_Common_SimpleMeshFactory_CreateCube.htm">
+            <HelpTOCNode Title="CreateCube Method " Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCube.htm" />
+            <HelpTOCNode Title="CreateCube Method ()" Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCube_1.htm" />
+            <HelpTOCNode Title="CreateCube Method (Single)" Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCube_2.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="f9daebda-a349-46a5-8bf1-3b31570a0537" Title="CreateCylinder Method " Url="html/Overload_Sol2E_Common_SimpleMeshFactory_CreateCylinder.htm">
+            <HelpTOCNode Title="CreateCylinder Method " Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCylinder.htm" />
+            <HelpTOCNode Title="CreateCylinder Method (Single, Single)" Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCylinder_1.htm" />
+            <HelpTOCNode Title="CreateCylinder Method (Single, Single, Int32)" Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateCylinder_2.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="cec9b5dd-a59e-46ce-8dd5-a8a1e91daaf8" Title="CreateSphere Method " Url="html/Overload_Sol2E_Common_SimpleMeshFactory_CreateSphere.htm">
+            <HelpTOCNode Title="CreateSphere Method " Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateSphere.htm" />
+            <HelpTOCNode Title="CreateSphere Method (Single)" Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateSphere_1.htm" />
+            <HelpTOCNode Title="CreateSphere Method (Single, Int32)" Url="html/M_Sol2E_Common_SimpleMeshFactory_CreateSphere_2.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1157f8f9-a5bd-4723-988a-de366b92dc02" Title="Transform Class" Url="html/T_Sol2E_Common_Transform.htm">
+        <HelpTOCNode Title="Transform Members" Url="html/AllMembers_T_Sol2E_Common_Transform.htm" />
+        <HelpTOCNode Title="Transform Constructor " Url="html/M_Sol2E_Common_Transform__ctor.htm" />
+        <HelpTOCNode Title="Transform Constructor " Url="html/M_Sol2E_Common_Transform__cctor.htm" />
+        <HelpTOCNode Id="8d942e6f-fa14-4b78-8d34-1e04f4e757cc" Title="Transform Fields" Url="html/Fields_T_Sol2E_Common_Transform.htm">
+          <HelpTOCNode Title="_orientation Field" Url="html/F_Sol2E_Common_Transform__orientation.htm" />
+          <HelpTOCNode Title="_position Field" Url="html/F_Sol2E_Common_Transform__position.htm" />
+          <HelpTOCNode Title="_scale Field" Url="html/F_Sol2E_Common_Transform__scale.htm" />
+          <HelpTOCNode Title="Default Field" Url="html/F_Sol2E_Common_Transform_Default.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="cb665f26-6522-4c9a-834e-491c7b75a501" Title="Transform Methods" Url="html/Methods_T_Sol2E_Common_Transform.htm">
+          <HelpTOCNode Title="ResetOrientation Method " Url="html/M_Sol2E_Common_Transform_ResetOrientation.htm" />
+          <HelpTOCNode Title="RotateGlobalAxisAngle Method " Url="html/M_Sol2E_Common_Transform_RotateGlobalAxisAngle.htm" />
+          <HelpTOCNode Title="RotateGlobalAxisAngleByAvoidingRoll Method " Url="html/M_Sol2E_Common_Transform_RotateGlobalAxisAngleByAvoidingRoll.htm" />
+          <HelpTOCNode Title="RotateGlobalX Method " Url="html/M_Sol2E_Common_Transform_RotateGlobalX.htm" />
+          <HelpTOCNode Title="RotateGlobalY Method " Url="html/M_Sol2E_Common_Transform_RotateGlobalY.htm" />
+          <HelpTOCNode Title="RotateGlobalZ Method " Url="html/M_Sol2E_Common_Transform_RotateGlobalZ.htm" />
+          <HelpTOCNode Title="RotateLocalAxisAngle Method " Url="html/M_Sol2E_Common_Transform_RotateLocalAxisAngle.htm" />
+          <HelpTOCNode Title="RotateLocalX Method " Url="html/M_Sol2E_Common_Transform_RotateLocalX.htm" />
+          <HelpTOCNode Title="RotateLocalY Method " Url="html/M_Sol2E_Common_Transform_RotateLocalY.htm" />
+          <HelpTOCNode Title="RotateLocalZ Method " Url="html/M_Sol2E_Common_Transform_RotateLocalZ.htm" />
+          <HelpTOCNode Title="RotateToPoint Method " Url="html/M_Sol2E_Common_Transform_RotateToPoint.htm" />
+          <HelpTOCNode Title="RotateToPointWithUpVector Method " Url="html/M_Sol2E_Common_Transform_RotateToPointWithUpVector.htm" />
+          <HelpTOCNode Title="YawPitchRollOfQuaternion Method " Url="html/M_Sol2E_Common_Transform_YawPitchRollOfQuaternion.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b5b84d4e-d23e-44e4-8f76-7061e2aaf391" Title="Transform Properties" Url="html/Properties_T_Sol2E_Common_Transform.htm">
+          <HelpTOCNode Title="Backward Property " Url="html/P_Sol2E_Common_Transform_Backward.htm" />
+          <HelpTOCNode Title="Down Property " Url="html/P_Sol2E_Common_Transform_Down.htm" />
+          <HelpTOCNode Title="Forward Property " Url="html/P_Sol2E_Common_Transform_Forward.htm" />
+          <HelpTOCNode Title="Left Property " Url="html/P_Sol2E_Common_Transform_Left.htm" />
+          <HelpTOCNode Title="Orientation Property " Url="html/P_Sol2E_Common_Transform_Orientation.htm" />
+          <HelpTOCNode Title="Position Property " Url="html/P_Sol2E_Common_Transform_Position.htm" />
+          <HelpTOCNode Title="Right Property " Url="html/P_Sol2E_Common_Transform_Right.htm" />
+          <HelpTOCNode Title="Scale Property " Url="html/P_Sol2E_Common_Transform_Scale.htm" />
+          <HelpTOCNode Title="Up Property " Url="html/P_Sol2E_Common_Transform_Up.htm" />
+          <HelpTOCNode Title="View Property " Url="html/P_Sol2E_Common_Transform_View.htm" />
+          <HelpTOCNode Title="World Property " Url="html/P_Sol2E_Common_Transform_World.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="79464323-0906-4caf-8430-5d65bd253c92" Title="Vector3Extensions Class" Url="html/T_Sol2E_Common_Vector3Extensions.htm">
+        <HelpTOCNode Title="Vector3Extensions Members" Url="html/AllMembers_T_Sol2E_Common_Vector3Extensions.htm" />
+        <HelpTOCNode Id="22adb6ad-df4a-4757-9d69-6b12b72b579d" Title="Vector3Extensions Methods" Url="html/Methods_T_Sol2E_Common_Vector3Extensions.htm">
+          <HelpTOCNode Title="Normalized Method " Url="html/M_Sol2E_Common_Vector3Extensions_Normalized.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d0b0193d-3b3e-4784-bc59-e70a970e84bb" Title="Sol2E.Core Namespace" Url="html/N_Sol2E_Core.htm">
+      <HelpTOCNode Id="aa090adb-f12b-4fb3-a818-7847bc26e51f" Title="AbstractDomainSystem Class" Url="html/T_Sol2E_Core_AbstractDomainSystem.htm">
+        <HelpTOCNode Title="AbstractDomainSystem Members" Url="html/AllMembers_T_Sol2E_Core_AbstractDomainSystem.htm" />
+        <HelpTOCNode Title="AbstractDomainSystem Constructor " Url="html/M_Sol2E_Core_AbstractDomainSystem__ctor.htm" />
+        <HelpTOCNode Id="3bd4dbf2-07bd-40c3-b87d-b89dbfaef232" Title="AbstractDomainSystem Fields" Url="html/Fields_T_Sol2E_Core_AbstractDomainSystem.htm">
+          <HelpTOCNode Title="_updateProfiler Field" Url="html/F_Sol2E_Core_AbstractDomainSystem__updateProfiler.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="21ba7db6-0321-4e96-a28e-ae49b4230a00" Title="AbstractDomainSystem Methods" Url="html/Methods_T_Sol2E_Core_AbstractDomainSystem.htm">
+          <HelpTOCNode Title="CleanUpAfterSceneSwitch Method " Url="html/M_Sol2E_Core_AbstractDomainSystem_CleanUpAfterSceneSwitch.htm" />
+          <HelpTOCNode Id="0fa5a34b-e5c2-441c-b036-abc2db7ff68b" Title="Dispose Method " Url="html/Overload_Sol2E_Core_AbstractDomainSystem_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Sol2E_Core_AbstractDomainSystem_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Sol2E_Core_AbstractDomainSystem_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="EntityChanged Method " Url="html/M_Sol2E_Core_AbstractDomainSystem_EntityChanged.htm" />
+          <HelpTOCNode Title="Finalize Method " Url="html/M_Sol2E_Core_AbstractDomainSystem_Finalize.htm" />
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Sol2E_Core_AbstractDomainSystem_Initialize.htm" />
+          <HelpTOCNode Title="SceneChanged Method " Url="html/M_Sol2E_Core_AbstractDomainSystem_SceneChanged.htm" />
+          <HelpTOCNode Title="ScenesWillSwitch Method " Url="html/M_Sol2E_Core_AbstractDomainSystem_ScenesWillSwitch.htm" />
+          <HelpTOCNode Id="60a2e957-5256-4dae-8c20-1e9105e1a557" Title="Update Method " Url="html/Overload_Sol2E_Core_AbstractDomainSystem_Update.htm">
+            <HelpTOCNode Title="Update Method (Single)" Url="html/M_Sol2E_Core_AbstractDomainSystem_Update.htm" />
+            <HelpTOCNode Title="Update Method (TimeSpan)" Url="html/M_Sol2E_Core_AbstractDomainSystem_Update_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="af0113ea-3478-4c9b-8ed6-cd3977e22fe5" Title="AbstractDomainSystem Properties" Url="html/Properties_T_Sol2E_Core_AbstractDomainSystem.htm">
+          <HelpTOCNode Title="CurrentResourceManager Property " Url="html/P_Sol2E_Core_AbstractDomainSystem_CurrentResourceManager.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e30120fc-d0c2-4c5b-8c2d-a9463a1d1350" Title="AbstractGraphicsSystem Class" Url="html/T_Sol2E_Core_AbstractGraphicsSystem.htm">
+        <HelpTOCNode Title="AbstractGraphicsSystem Members" Url="html/AllMembers_T_Sol2E_Core_AbstractGraphicsSystem.htm" />
+        <HelpTOCNode Title="AbstractGraphicsSystem Constructor " Url="html/M_Sol2E_Core_AbstractGraphicsSystem__ctor.htm" />
+        <HelpTOCNode Id="7ca27d23-01b2-41d6-9339-a6a9ee8420f0" Title="AbstractGraphicsSystem Fields" Url="html/Fields_T_Sol2E_Core_AbstractGraphicsSystem.htm">
+          <HelpTOCNode Title="_drawProfiler Field" Url="html/F_Sol2E_Core_AbstractGraphicsSystem__drawProfiler.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="62e59ed0-0976-4e93-93b8-c90c2220a5a4" Title="AbstractGraphicsSystem Methods" Url="html/Methods_T_Sol2E_Core_AbstractGraphicsSystem.htm">
+          <HelpTOCNode Id="d337e388-6f59-4b2b-9491-4bcf21d3e670" Title="Draw Method " Url="html/Overload_Sol2E_Core_AbstractGraphicsSystem_Draw.htm">
+            <HelpTOCNode Title="Draw Method (Single)" Url="html/M_Sol2E_Core_AbstractGraphicsSystem_Draw.htm" />
+            <HelpTOCNode Title="Draw Method (TimeSpan)" Url="html/M_Sol2E_Core_AbstractGraphicsSystem_Draw_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="d694e938-c0f5-4100-b402-fa8b2cfe3561" Title="AbstractGraphicsSystem Properties" Url="html/Properties_T_Sol2E_Core_AbstractGraphicsSystem.htm">
+          <HelpTOCNode Title="FramesPerSecond Property " Url="html/P_Sol2E_Core_AbstractGraphicsSystem_FramesPerSecond.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c8d49e2d-5767-486e-84d7-6740420f3fbc" Title="Component Class" Url="html/T_Sol2E_Core_Component.htm">
+        <HelpTOCNode Title="Component Members" Url="html/AllMembers_T_Sol2E_Core_Component.htm" />
+        <HelpTOCNode Title="Component Constructor " Url="html/M_Sol2E_Core_Component__ctor.htm" />
+        <HelpTOCNode Id="68a598bf-e7d0-4642-b8c8-bd0bcb425999" Title="Component Methods" Url="html/Methods_T_Sol2E_Core_Component.htm">
+          <HelpTOCNode Title="AssignToEntity Method " Url="html/M_Sol2E_Core_Component_AssignToEntity.htm" />
+          <HelpTOCNode Id="38e8259a-ce6c-4123-aa41-bd69a7b8bb48" Title="Count Method " Url="html/Overload_Sol2E_Core_Component_Count.htm">
+            <HelpTOCNode Title="Count Method " Url="html/M_Sol2E_Core_Component_Count.htm" />
+            <HelpTOCNode Title="Count(T) Method " Url="html/M_Sol2E_Core_Component_Count__1.htm" />
+            <HelpTOCNode Title="Count(T) Method (Scene)" Url="html/M_Sol2E_Core_Component_Count__1_1.htm" />
+            <HelpTOCNode Title="Count Method (Scene)" Url="html/M_Sol2E_Core_Component_Count_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Create(T) Method " Url="html/M_Sol2E_Core_Component_Create__1.htm" />
+          <HelpTOCNode Title="Destroy Method " Url="html/M_Sol2E_Core_Component_Destroy.htm" />
+          <HelpTOCNode Title="GetAll(T) Method " Url="html/M_Sol2E_Core_Component_GetAll__1.htm" />
+          <HelpTOCNode Title="GetHostingEntity Method " Url="html/M_Sol2E_Core_Component_GetHostingEntity.htm" />
+          <HelpTOCNode Title="GetInstance Method " Url="html/M_Sol2E_Core_Component_GetInstance.htm" />
+          <HelpTOCNode Title="OnSerializedMethod Method " Url="html/M_Sol2E_Core_Component_OnSerializedMethod.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0fd4c327-73a2-4ddf-8154-07125856c5f3" Title="Component Properties" Url="html/Properties_T_Sol2E_Core_Component.htm">
+          <HelpTOCNode Title="Id Property " Url="html/P_Sol2E_Core_Component_Id.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8238ccfc-4182-4c5c-9db6-3f82c9b0640a" Title="ComponentChangedEvent(T) Class" Url="html/T_Sol2E_Core_ComponentChangedEvent_1.htm">
+        <HelpTOCNode Title="ComponentChangedEvent(T) Members" Url="html/AllMembers_T_Sol2E_Core_ComponentChangedEvent_1.htm" />
+        <HelpTOCNode Id="f93896f4-e4d6-488b-8212-2f47f986f7bc" Title="ComponentChangedEvent(T) Methods" Url="html/Methods_T_Sol2E_Core_ComponentChangedEvent_1.htm">
+          <HelpTOCNode Title="Invoke Method " Url="html/M_Sol2E_Core_ComponentChangedEvent_1_Invoke.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="74345b16-94b8-4826-896b-7f13f6607383" Title="ComponentChangedEvent(T) Events" Url="html/Events_T_Sol2E_Core_ComponentChangedEvent_1.htm">
+          <HelpTOCNode Title="ComponentChanged Event" Url="html/E_Sol2E_Core_ComponentChangedEvent_1_ComponentChanged.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="ComponentChangedEventHandler(T) Delegate" Url="html/T_Sol2E_Core_ComponentChangedEventHandler_1.htm" />
+      <HelpTOCNode Id="5451f28f-fee3-4356-9e3f-4a8bf148f293" Title="ComponentProperty(TValue, TOwner) Class" Url="html/T_Sol2E_Core_ComponentProperty_2.htm">
+        <HelpTOCNode Title="ComponentProperty(TValue, TOwner) Members" Url="html/AllMembers_T_Sol2E_Core_ComponentProperty_2.htm" />
+        <HelpTOCNode Title="ComponentProperty(TValue, TOwner) Constructor " Url="html/M_Sol2E_Core_ComponentProperty_2__ctor.htm" />
+        <HelpTOCNode Id="c01a066c-70b9-44b4-9607-1eb2eed60223" Title="ComponentProperty(TValue, TOwner) Fields" Url="html/Fields_T_Sol2E_Core_ComponentProperty_2.htm">
+          <HelpTOCNode Title="_value Field" Url="html/F_Sol2E_Core_ComponentProperty_2__value.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="69cc325d-a2aa-4b6e-85cf-f9e1da837418" Title="ComponentProperty(TValue, TOwner) Type Conversions" Url="html/Operators_T_Sol2E_Core_ComponentProperty_2.htm">
+          <HelpTOCNode Id="5afe5f0f-1ba3-445d-9032-7fafe824e77c" Title="Implicit Conversion Operators" Url="html/Overload_Sol2E_Core_ComponentProperty_2_op_Implicit.htm">
+            <HelpTOCNode Title="Implicit Conversion (TValue to ComponentProperty(TValue, TOwner))" Url="html/M_Sol2E_Core_ComponentProperty_2_op_Implicit_1.htm" />
+            <HelpTOCNode Title="Implicit Conversion (ComponentProperty(TValue, TOwner) to TValue)" Url="html/M_Sol2E_Core_ComponentProperty_2_op_Implicit.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="565056f9-725c-4111-8e14-6a86ac4dc964" Title="ComponentProperty(TValue, TOwner) Properties" Url="html/Properties_T_Sol2E_Core_ComponentProperty_2.htm">
+          <HelpTOCNode Title="Value Property " Url="html/P_Sol2E_Core_ComponentProperty_2_Value.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b8a5a23-4355-4e6a-b702-6d59e176854b" Title="ComponentPropertyAttribute Class" Url="html/T_Sol2E_Core_ComponentPropertyAttribute.htm">
+        <HelpTOCNode Title="ComponentPropertyAttribute Members" Url="html/AllMembers_T_Sol2E_Core_ComponentPropertyAttribute.htm" />
+        <HelpTOCNode Title="ComponentPropertyAttribute Constructor " Url="html/M_Sol2E_Core_ComponentPropertyAttribute__ctor.htm" />
+        <HelpTOCNode Id="349afc49-9a35-4738-a122-dc735b8dc632" Title="ComponentPropertyAttribute Properties" Url="html/Properties_T_Sol2E_Core_ComponentPropertyAttribute.htm">
+          <HelpTOCNode Title="Host Property " Url="html/P_Sol2E_Core_ComponentPropertyAttribute_Host.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Sol2E_Core_ComponentPropertyAttribute_Name.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e492a92c-6c31-48ec-baa8-94b0e284eef5" Title="Database Class" Url="html/T_Sol2E_Core_Database.htm">
+        <HelpTOCNode Title="Database Members" Url="html/AllMembers_T_Sol2E_Core_Database.htm" />
+        <HelpTOCNode Title="Database Constructor " Url="html/M_Sol2E_Core_Database__ctor.htm" />
+        <HelpTOCNode Id="2a1632b2-a542-4a7b-b274-c15debcc5db3" Title="Database Fields" Url="html/Fields_T_Sol2E_Core_Database.htm">
+          <HelpTOCNode Title="_componentIdsByEntityAndType Field" Url="html/F_Sol2E_Core_Database__componentIdsByEntityAndType.htm" />
+          <HelpTOCNode Title="_componentIdsBySceneAndType Field" Url="html/F_Sol2E_Core_Database__componentIdsBySceneAndType.htm" />
+          <HelpTOCNode Title="_components Field" Url="html/F_Sol2E_Core_Database__components.htm" />
+          <HelpTOCNode Title="_entities Field" Url="html/F_Sol2E_Core_Database__entities.htm" />
+          <HelpTOCNode Title="_entityIdsByScene Field" Url="html/F_Sol2E_Core_Database__entityIdsByScene.htm" />
+          <HelpTOCNode Title="_scenes Field" Url="html/F_Sol2E_Core_Database__scenes.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="96b1a439-1368-41a4-a8c9-daca2f566831" Title="Database Methods" Url="html/Methods_T_Sol2E_Core_Database.htm">
+          <HelpTOCNode Title="AddComponentIdsOfEntityToScene Method " Url="html/M_Sol2E_Core_Database_AddComponentIdsOfEntityToScene.htm" />
+          <HelpTOCNode Title="AddComponentToEntity Method " Url="html/M_Sol2E_Core_Database_AddComponentToEntity.htm" />
+          <HelpTOCNode Title="AddComponentToScene Method " Url="html/M_Sol2E_Core_Database_AddComponentToScene.htm" />
+          <HelpTOCNode Title="AddEntityIdToScene Method " Url="html/M_Sol2E_Core_Database_AddEntityIdToScene.htm" />
+          <HelpTOCNode Title="ComponentAssignToEntity Method " Url="html/M_Sol2E_Core_Database_ComponentAssignToEntity.htm" />
+          <HelpTOCNode Title="ComponentCountInScene Method " Url="html/M_Sol2E_Core_Database_ComponentCountInScene.htm" />
+          <HelpTOCNode Title="ComponentCountOfType Method " Url="html/M_Sol2E_Core_Database_ComponentCountOfType.htm" />
+          <HelpTOCNode Title="ComponentCountOfTypeInScene Method " Url="html/M_Sol2E_Core_Database_ComponentCountOfTypeInScene.htm" />
+          <HelpTOCNode Title="ComponentGetAllInstances(T) Method " Url="html/M_Sol2E_Core_Database_ComponentGetAllInstances__1.htm" />
+          <HelpTOCNode Title="ComponentGetIdOfHostingEntity Method " Url="html/M_Sol2E_Core_Database_ComponentGetIdOfHostingEntity.htm" />
+          <HelpTOCNode Title="ComponentGetInstance Method " Url="html/M_Sol2E_Core_Database_ComponentGetInstance.htm" />
+          <HelpTOCNode Title="ComponentRegister Method " Url="html/M_Sol2E_Core_Database_ComponentRegister.htm" />
+          <HelpTOCNode Title="ComponentUnRegister Method " Url="html/M_Sol2E_Core_Database_ComponentUnRegister.htm" />
+          <HelpTOCNode Title="EntityAssignToScene Method " Url="html/M_Sol2E_Core_Database_EntityAssignToScene.htm" />
+          <HelpTOCNode Title="EntityCountInScene Method " Url="html/M_Sol2E_Core_Database_EntityCountInScene.htm" />
+          <HelpTOCNode Title="EntityCreate Method " Url="html/M_Sol2E_Core_Database_EntityCreate.htm" />
+          <HelpTOCNode Title="EntityDestroy Method " Url="html/M_Sol2E_Core_Database_EntityDestroy.htm" />
+          <HelpTOCNode Title="EntityGetAllComponents Method " Url="html/M_Sol2E_Core_Database_EntityGetAllComponents.htm" />
+          <HelpTOCNode Title="EntityGetComponent(T) Method " Url="html/M_Sol2E_Core_Database_EntityGetComponent__1.htm" />
+          <HelpTOCNode Title="EntityGetIdOfHostingScene Method " Url="html/M_Sol2E_Core_Database_EntityGetIdOfHostingScene.htm" />
+          <HelpTOCNode Title="EntityGetInstance Method " Url="html/M_Sol2E_Core_Database_EntityGetInstance.htm" />
+          <HelpTOCNode Id="c406cfde-c87e-45d0-beb9-43ae7712b4de" Title="EntityGetInstances Method " Url="html/Overload_Sol2E_Core_Database_EntityGetInstances.htm">
+            <HelpTOCNode Title="EntityGetInstances Method (IEnumerable(Type))" Url="html/M_Sol2E_Core_Database_EntityGetInstances.htm" />
+            <HelpTOCNode Title="EntityGetInstances Method (Type)" Url="html/M_Sol2E_Core_Database_EntityGetInstances_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="EntityHasComponent Method " Url="html/M_Sol2E_Core_Database_EntityHasComponent.htm" />
+          <HelpTOCNode Title="EntityRestoreState Method " Url="html/M_Sol2E_Core_Database_EntityRestoreState.htm" />
+          <HelpTOCNode Title="EntitySaveState Method " Url="html/M_Sol2E_Core_Database_EntitySaveState.htm" />
+          <HelpTOCNode Title="RemoveComponentFromEntity Method " Url="html/M_Sol2E_Core_Database_RemoveComponentFromEntity.htm" />
+          <HelpTOCNode Title="RemoveComponentFromScene Method " Url="html/M_Sol2E_Core_Database_RemoveComponentFromScene.htm" />
+          <HelpTOCNode Title="RemoveComponentIdsOfEntityFromScene Method " Url="html/M_Sol2E_Core_Database_RemoveComponentIdsOfEntityFromScene.htm" />
+          <HelpTOCNode Title="RemoveEntityIdFromScene Method " Url="html/M_Sol2E_Core_Database_RemoveEntityIdFromScene.htm" />
+          <HelpTOCNode Title="SceneCreate Method " Url="html/M_Sol2E_Core_Database_SceneCreate.htm" />
+          <HelpTOCNode Title="SceneDestroy Method " Url="html/M_Sol2E_Core_Database_SceneDestroy.htm" />
+          <HelpTOCNode Title="SceneGetAllComponents(T) Method " Url="html/M_Sol2E_Core_Database_SceneGetAllComponents__1.htm" />
+          <HelpTOCNode Title="SceneGetAllEntities Method " Url="html/M_Sol2E_Core_Database_SceneGetAllEntities.htm" />
+          <HelpTOCNode Id="8c10db33-b881-4251-ab21-48d53032f40d" Title="SceneGetAllEntitiesWith Method " Url="html/Overload_Sol2E_Core_Database_SceneGetAllEntitiesWith.htm">
+            <HelpTOCNode Title="SceneGetAllEntitiesWith Method (Int32, IEnumerable(Type))" Url="html/M_Sol2E_Core_Database_SceneGetAllEntitiesWith.htm" />
+            <HelpTOCNode Title="SceneGetAllEntitiesWith Method (Int32, Type)" Url="html/M_Sol2E_Core_Database_SceneGetAllEntitiesWith_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SceneGetAllInstances Method " Url="html/M_Sol2E_Core_Database_SceneGetAllInstances.htm" />
+          <HelpTOCNode Title="SceneGetInstance Method " Url="html/M_Sol2E_Core_Database_SceneGetInstance.htm" />
+          <HelpTOCNode Title="SceneHasEntity Method " Url="html/M_Sol2E_Core_Database_SceneHasEntity.htm" />
+          <HelpTOCNode Title="SceneRestoreState Method " Url="html/M_Sol2E_Core_Database_SceneRestoreState.htm" />
+          <HelpTOCNode Title="SceneSaveState Method " Url="html/M_Sol2E_Core_Database_SceneSaveState.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="88f9675b-ac62-4cb0-8dab-3cc1d297d97a" Title="Database Properties" Url="html/Properties_T_Sol2E_Core_Database.htm">
+          <HelpTOCNode Title="ComponentCount Property " Url="html/P_Sol2E_Core_Database_ComponentCount.htm" />
+          <HelpTOCNode Title="EntityCount Property " Url="html/P_Sol2E_Core_Database_EntityCount.htm" />
+          <HelpTOCNode Title="SceneCount Property " Url="html/P_Sol2E_Core_Database_SceneCount.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Database.IdTypes Enumeration" Url="html/T_Sol2E_Core_Database_IdTypes.htm" />
+      <HelpTOCNode Id="ed0a6a60-347e-4268-a55d-9254e1540ea4" Title="Entity Class" Url="html/T_Sol2E_Core_Entity.htm">
+        <HelpTOCNode Title="Entity Members" Url="html/AllMembers_T_Sol2E_Core_Entity.htm" />
+        <HelpTOCNode Id="9f2d6c2c-f951-470b-bb2e-967c641764f2" Title="Entity Constructor " Url="html/Overload_Sol2E_Core_Entity__ctor.htm">
+          <HelpTOCNode Title="Entity Constructor " Url="html/M_Sol2E_Core_Entity__ctor.htm" />
+          <HelpTOCNode Title="Entity Constructor (Int32)" Url="html/M_Sol2E_Core_Entity__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6390a0b1-5722-4d5f-9669-4e65fb32cd27" Title="Entity Methods" Url="html/Methods_T_Sol2E_Core_Entity.htm">
+          <HelpTOCNode Title="AddComponent Method " Url="html/M_Sol2E_Core_Entity_AddComponent.htm" />
+          <HelpTOCNode Title="AssignToScene Method " Url="html/M_Sol2E_Core_Entity_AssignToScene.htm" />
+          <HelpTOCNode Id="69e12530-a811-4ca5-8b4e-cfb2a0821dc6" Title="Count Method " Url="html/Overload_Sol2E_Core_Entity_Count.htm">
+            <HelpTOCNode Title="Count Method " Url="html/M_Sol2E_Core_Entity_Count.htm" />
+            <HelpTOCNode Title="Count Method (Scene)" Url="html/M_Sol2E_Core_Entity_Count_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Create Method " Url="html/M_Sol2E_Core_Entity_Create.htm" />
+          <HelpTOCNode Title="Destroy Method " Url="html/M_Sol2E_Core_Entity_Destroy.htm" />
+          <HelpTOCNode Title="Get(T) Method " Url="html/M_Sol2E_Core_Entity_Get__1.htm" />
+          <HelpTOCNode Title="GetAll Method " Url="html/M_Sol2E_Core_Entity_GetAll.htm" />
+          <HelpTOCNode Title="GetHostingScene Method " Url="html/M_Sol2E_Core_Entity_GetHostingScene.htm" />
+          <HelpTOCNode Title="GetInstance Method " Url="html/M_Sol2E_Core_Entity_GetInstance.htm" />
+          <HelpTOCNode Id="eaa7d45e-f1e7-46da-abd8-f0998760d4da" Title="GetInstances Method " Url="html/Overload_Sol2E_Core_Entity_GetInstances.htm">
+            <HelpTOCNode Title="GetInstances Method (IEnumerable(Type))" Url="html/M_Sol2E_Core_Entity_GetInstances.htm" />
+            <HelpTOCNode Title="GetInstances Method (Type)" Url="html/M_Sol2E_Core_Entity_GetInstances_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Has(T) Method " Url="html/M_Sol2E_Core_Entity_Has__1.htm" />
+          <HelpTOCNode Title="RestoreState Method " Url="html/M_Sol2E_Core_Entity_RestoreState.htm" />
+          <HelpTOCNode Title="SaveState Method " Url="html/M_Sol2E_Core_Entity_SaveState.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ecd4aeb2-95c9-4751-a72f-842d46fcee73" Title="Entity Properties" Url="html/Properties_T_Sol2E_Core_Entity.htm">
+          <HelpTOCNode Title="Id Property " Url="html/P_Sol2E_Core_Entity_Id.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d9cb3a1d-45a0-4f57-a156-09dff1ef7c23" Title="EntityChangedEvent Class" Url="html/T_Sol2E_Core_EntityChangedEvent.htm">
+        <HelpTOCNode Title="EntityChangedEvent Members" Url="html/AllMembers_T_Sol2E_Core_EntityChangedEvent.htm" />
+        <HelpTOCNode Id="7028dcf1-4468-4d17-ae23-32e1bfeb1046" Title="EntityChangedEvent Methods" Url="html/Methods_T_Sol2E_Core_EntityChangedEvent.htm">
+          <HelpTOCNode Title="Invoke Method " Url="html/M_Sol2E_Core_EntityChangedEvent_Invoke.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b3c3ffe5-e241-49d2-9b7e-de77206c010a" Title="EntityChangedEvent Events" Url="html/Events_T_Sol2E_Core_EntityChangedEvent.htm">
+          <HelpTOCNode Title="EntityChanged Event" Url="html/E_Sol2E_Core_EntityChangedEvent_EntityChanged.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="EntityChangedEventHandler Delegate" Url="html/T_Sol2E_Core_EntityChangedEventHandler.htm" />
+      <HelpTOCNode Title="EntityEventType Enumeration" Url="html/T_Sol2E_Core_EntityEventType.htm" />
+      <HelpTOCNode Id="6de25787-9358-4ff9-9fe6-82f67f7ae96a" Title="EntityState Class" Url="html/T_Sol2E_Core_EntityState.htm">
+        <HelpTOCNode Title="EntityState Members" Url="html/AllMembers_T_Sol2E_Core_EntityState.htm" />
+        <HelpTOCNode Title="EntityState Constructor " Url="html/M_Sol2E_Core_EntityState__ctor.htm" />
+        <HelpTOCNode Id="fea30afb-d806-4eb1-ba53-0d6bcdde1ef4" Title="EntityState Properties" Url="html/Properties_T_Sol2E_Core_EntityState.htm">
+          <HelpTOCNode Title="EntityData Property " Url="html/P_Sol2E_Core_EntityState_EntityData.htm" />
+          <HelpTOCNode Title="EntityId Property " Url="html/P_Sol2E_Core_EntityState_EntityId.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ba6b8f64-3f1b-44e2-9a68-5dce0d68e100" Title="EnumerableExtension Class" Url="html/T_Sol2E_Core_EnumerableExtension.htm">
+        <HelpTOCNode Title="EnumerableExtension Members" Url="html/AllMembers_T_Sol2E_Core_EnumerableExtension.htm" />
+        <HelpTOCNode Id="78bf283c-6dcc-4d03-82a3-d75ddd83dbd7" Title="EnumerableExtension Methods" Url="html/Methods_T_Sol2E_Core_EnumerableExtension.htm">
+          <HelpTOCNode Title="IsSubsetOf(T) Method " Url="html/M_Sol2E_Core_EnumerableExtension_IsSubsetOf__1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ed62d962-4ffc-47bb-9b75-275e2dfb970c" Title="IDomainSystem Interface" Url="html/T_Sol2E_Core_IDomainSystem.htm">
+        <HelpTOCNode Title="IDomainSystem Members" Url="html/AllMembers_T_Sol2E_Core_IDomainSystem.htm" />
+        <HelpTOCNode Id="aec7779d-181a-4817-9bbe-0cbaf68476b1" Title="IDomainSystem Methods" Url="html/Methods_T_Sol2E_Core_IDomainSystem.htm">
+          <HelpTOCNode Title="EntityChanged Method " Url="html/M_Sol2E_Core_IDomainSystem_EntityChanged.htm" />
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Sol2E_Core_IDomainSystem_Initialize.htm" />
+          <HelpTOCNode Title="SceneChanged Method " Url="html/M_Sol2E_Core_IDomainSystem_SceneChanged.htm" />
+          <HelpTOCNode Title="ScenesWillSwitch Method " Url="html/M_Sol2E_Core_IDomainSystem_ScenesWillSwitch.htm" />
+          <HelpTOCNode Title="Update Method " Url="html/M_Sol2E_Core_IDomainSystem_Update.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="270c68ee-ffc2-4703-826d-4663bfd40776" Title="IGraphicsSystem Interface" Url="html/T_Sol2E_Core_IGraphicsSystem.htm">
+        <HelpTOCNode Title="IGraphicsSystem Members" Url="html/AllMembers_T_Sol2E_Core_IGraphicsSystem.htm" />
+        <HelpTOCNode Id="31620a65-f6cf-4a32-8dc0-9acccc8390a0" Title="IGraphicsSystem Methods" Url="html/Methods_T_Sol2E_Core_IGraphicsSystem.htm">
+          <HelpTOCNode Title="Draw Method " Url="html/M_Sol2E_Core_IGraphicsSystem_Draw.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c2eb40b1-6a61-4425-a83d-eee765e38a1b" Title="IGraphicsSystem Properties" Url="html/Properties_T_Sol2E_Core_IGraphicsSystem.htm">
+          <HelpTOCNode Title="FramesPerSecond Property " Url="html/P_Sol2E_Core_IGraphicsSystem_FramesPerSecond.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ae9dbab6-cbd7-4082-81af-ea6b5af2291e" Title="IResourceManager Interface" Url="html/T_Sol2E_Core_IResourceManager.htm">
+        <HelpTOCNode Title="IResourceManager Members" Url="html/AllMembers_T_Sol2E_Core_IResourceManager.htm" />
+        <HelpTOCNode Id="4f3ed1c2-1f64-41ca-b8a0-d230d299990f" Title="IResourceManager Methods" Url="html/Methods_T_Sol2E_Core_IResourceManager.htm">
+          <HelpTOCNode Title="Load(T) Method " Url="html/M_Sol2E_Core_IResourceManager_Load__1.htm" />
+          <HelpTOCNode Title="UnloadAll Method " Url="html/M_Sol2E_Core_IResourceManager_UnloadAll.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="819d24e0-9767-4493-869c-712070df174c" Title="Scene Class" Url="html/T_Sol2E_Core_Scene.htm">
+        <HelpTOCNode Title="Scene Members" Url="html/AllMembers_T_Sol2E_Core_Scene.htm" />
+        <HelpTOCNode Title="Scene Constructor " Url="html/M_Sol2E_Core_Scene__ctor.htm" />
+        <HelpTOCNode Id="77c95cb9-5045-43da-bebf-6219a461fd31" Title="Scene Methods" Url="html/Methods_T_Sol2E_Core_Scene.htm">
+          <HelpTOCNode Title="AddEntity Method " Url="html/M_Sol2E_Core_Scene_AddEntity.htm" />
+          <HelpTOCNode Title="Count Method " Url="html/M_Sol2E_Core_Scene_Count.htm" />
+          <HelpTOCNode Title="Create Method " Url="html/M_Sol2E_Core_Scene_Create.htm" />
+          <HelpTOCNode Title="Destroy Method " Url="html/M_Sol2E_Core_Scene_Destroy.htm" />
+          <HelpTOCNode Title="GetAll Method " Url="html/M_Sol2E_Core_Scene_GetAll.htm" />
+          <HelpTOCNode Title="GetAllComponents(T) Method " Url="html/M_Sol2E_Core_Scene_GetAllComponents__1.htm" />
+          <HelpTOCNode Title="GetAllInstances Method " Url="html/M_Sol2E_Core_Scene_GetAllInstances.htm" />
+          <HelpTOCNode Id="a0881b4f-5161-4ba2-9db9-3f8df4ae95e6" Title="GetAllWith Method " Url="html/Overload_Sol2E_Core_Scene_GetAllWith.htm">
+            <HelpTOCNode Title="GetAllWith Method (IEnumerable(Type))" Url="html/M_Sol2E_Core_Scene_GetAllWith.htm" />
+            <HelpTOCNode Title="GetAllWith Method (Type)" Url="html/M_Sol2E_Core_Scene_GetAllWith_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="GetInstance Method " Url="html/M_Sol2E_Core_Scene_GetInstance.htm" />
+          <HelpTOCNode Title="Has Method " Url="html/M_Sol2E_Core_Scene_Has.htm" />
+          <HelpTOCNode Title="RestoreState Method " Url="html/M_Sol2E_Core_Scene_RestoreState.htm" />
+          <HelpTOCNode Title="SaveState Method " Url="html/M_Sol2E_Core_Scene_SaveState.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="162521f0-60bb-4cd1-b9c8-1b90d0971ad2" Title="Scene Properties" Url="html/Properties_T_Sol2E_Core_Scene.htm">
+          <HelpTOCNode Title="Current Property " Url="html/P_Sol2E_Core_Scene_Current.htm" />
+          <HelpTOCNode Title="Global Property " Url="html/P_Sol2E_Core_Scene_Global.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Sol2E_Core_Scene_Id.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d7b25c52-bd59-49d0-8602-efbe1b291240" Title="SceneChangedEvent Class" Url="html/T_Sol2E_Core_SceneChangedEvent.htm">
+        <HelpTOCNode Title="SceneChangedEvent Members" Url="html/AllMembers_T_Sol2E_Core_SceneChangedEvent.htm" />
+        <HelpTOCNode Id="611908bf-22eb-4f1f-909a-fd46d3768b7e" Title="SceneChangedEvent Methods" Url="html/Methods_T_Sol2E_Core_SceneChangedEvent.htm">
+          <HelpTOCNode Title="Invoke Method " Url="html/M_Sol2E_Core_SceneChangedEvent_Invoke.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6552eba8-d976-41c7-aab9-caabeb2be08b" Title="SceneChangedEvent Events" Url="html/Events_T_Sol2E_Core_SceneChangedEvent.htm">
+          <HelpTOCNode Title="SceneChanged Event" Url="html/E_Sol2E_Core_SceneChangedEvent_SceneChanged.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="SceneChangedEventHandler Delegate" Url="html/T_Sol2E_Core_SceneChangedEventHandler.htm" />
+      <HelpTOCNode Title="SceneEventType Enumeration" Url="html/T_Sol2E_Core_SceneEventType.htm" />
+      <HelpTOCNode Id="cd851a42-56f7-44bc-92a6-9d7055dbe843" Title="SceneManager Class" Url="html/T_Sol2E_Core_SceneManager.htm">
+        <HelpTOCNode Title="SceneManager Members" Url="html/AllMembers_T_Sol2E_Core_SceneManager.htm" />
+        <HelpTOCNode Title="SceneManager Constructor " Url="html/M_Sol2E_Core_SceneManager__ctor.htm" />
+        <HelpTOCNode Id="663fc993-2c6c-41d9-9646-21b20b1b73eb" Title="SceneManager Fields" Url="html/Fields_T_Sol2E_Core_SceneManager.htm">
+          <HelpTOCNode Title="_executingDirectory Field" Url="html/F_Sol2E_Core_SceneManager__executingDirectory.htm" />
+          <HelpTOCNode Title="_initialLoad Field" Url="html/F_Sol2E_Core_SceneManager__initialLoad.htm" />
+          <HelpTOCNode Title="_managedScenes Field" Url="html/F_Sol2E_Core_SceneManager__managedScenes.htm" />
+          <HelpTOCNode Title="_quickSaveCurrent Field" Url="html/F_Sol2E_Core_SceneManager__quickSaveCurrent.htm" />
+          <HelpTOCNode Title="_quickSaveGlobal Field" Url="html/F_Sol2E_Core_SceneManager__quickSaveGlobal.htm" />
+          <HelpTOCNode Title="_resourceManagers Field" Url="html/F_Sol2E_Core_SceneManager__resourceManagers.htm" />
+          <HelpTOCNode Title="_sceneInitialStates Field" Url="html/F_Sol2E_Core_SceneManager__sceneInitialStates.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="be5c6f9e-23e2-4e54-9dae-bced00bc907a" Title="SceneManager Methods" Url="html/Methods_T_Sol2E_Core_SceneManager.htm">
+          <HelpTOCNode Title="DiskRestore Method " Url="html/M_Sol2E_Core_SceneManager_DiskRestore.htm" />
+          <HelpTOCNode Id="bd645235-b272-4d04-acc4-2a716b292e70" Title="DiskSave Method " Url="html/Overload_Sol2E_Core_SceneManager_DiskSave.htm">
+            <HelpTOCNode Title="DiskSave Method " Url="html/M_Sol2E_Core_SceneManager_DiskSave.htm" />
+            <HelpTOCNode Title="DiskSave Method (String)" Url="html/M_Sol2E_Core_SceneManager_DiskSave_3.htm" />
+            <HelpTOCNode Title="DiskSave Method (Scene)" Url="html/M_Sol2E_Core_SceneManager_DiskSave_1.htm" />
+            <HelpTOCNode Title="DiskSave Method (Scene, String)" Url="html/M_Sol2E_Core_SceneManager_DiskSave_2.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Sol2E_Core_SceneManager_Dispose.htm" />
+          <HelpTOCNode Title="LoadNext Method " Url="html/M_Sol2E_Core_SceneManager_LoadNext.htm" />
+          <HelpTOCNode Title="LoadPrevious Method " Url="html/M_Sol2E_Core_SceneManager_LoadPrevious.htm" />
+          <HelpTOCNode Id="a1072b4a-29d5-4100-b7b1-6788970a53ca" Title="LoadScene Method " Url="html/Overload_Sol2E_Core_SceneManager_LoadScene.htm">
+            <HelpTOCNode Title="LoadScene Method (Int32)" Url="html/M_Sol2E_Core_SceneManager_LoadScene_1.htm" />
+            <HelpTOCNode Title="LoadScene Method (String)" Url="html/M_Sol2E_Core_SceneManager_LoadScene_2.htm" />
+            <HelpTOCNode Title="LoadScene Method (Scene)" Url="html/M_Sol2E_Core_SceneManager_LoadScene.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="NameOfScene Method " Url="html/M_Sol2E_Core_SceneManager_NameOfScene.htm" />
+          <HelpTOCNode Title="NewScene Method " Url="html/M_Sol2E_Core_SceneManager_NewScene.htm" />
+          <HelpTOCNode Title="OnSceneSwitch Method " Url="html/M_Sol2E_Core_SceneManager_OnSceneSwitch.htm" />
+          <HelpTOCNode Title="QuickRestore Method " Url="html/M_Sol2E_Core_SceneManager_QuickRestore.htm" />
+          <HelpTOCNode Title="QuickSave Method " Url="html/M_Sol2E_Core_SceneManager_QuickSave.htm" />
+          <HelpTOCNode Title="RestartCurrentScene Method " Url="html/M_Sol2E_Core_SceneManager_RestartCurrentScene.htm" />
+          <HelpTOCNode Title="SceneByName Method " Url="html/M_Sol2E_Core_SceneManager_SceneByName.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4f20ca20-3b19-4dab-812a-329d47aa4567" Title="SceneManager Properties" Url="html/Properties_T_Sol2E_Core_SceneManager.htm">
+          <HelpTOCNode Title="GlobalResourceManager Property " Url="html/P_Sol2E_Core_SceneManager_GlobalResourceManager.htm" />
+          <HelpTOCNode Title="RootDirectory Property " Url="html/P_Sol2E_Core_SceneManager_RootDirectory.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c5d6d78c-fcbe-4072-b9d9-0615b521f7db" Title="SceneManager Events" Url="html/Events_T_Sol2E_Core_SceneManager.htm">
+          <HelpTOCNode Title="ScenesWillSwitchEvent Event" Url="html/E_Sol2E_Core_SceneManager_ScenesWillSwitchEvent.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3ef8ede8-802a-4b94-aab3-bca915c922ae" Title="SceneState Class" Url="html/T_Sol2E_Core_SceneState.htm">
+        <HelpTOCNode Title="SceneState Members" Url="html/AllMembers_T_Sol2E_Core_SceneState.htm" />
+        <HelpTOCNode Title="SceneState Constructor " Url="html/M_Sol2E_Core_SceneState__ctor.htm" />
+        <HelpTOCNode Id="9f174907-1487-4f7c-9140-6aaea6324afa" Title="SceneState Properties" Url="html/Properties_T_Sol2E_Core_SceneState.htm">
+          <HelpTOCNode Title="SceneData Property " Url="html/P_Sol2E_Core_SceneState_SceneData.htm" />
+          <HelpTOCNode Title="SceneId Property " Url="html/P_Sol2E_Core_SceneState_SceneId.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="ScenesWillSwitchEventHandler Delegate" Url="html/T_Sol2E_Core_ScenesWillSwitchEventHandler.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="328f275e-6b90-4bf1-b9f3-b088ee3800c3" Title="Sol2E.Graphics Namespace" Url="html/N_Sol2E_Graphics.htm">
+      <HelpTOCNode Id="efebda06-d9bd-4d4f-b6cb-32cb254ee77e" Title="Ambience Class" Url="html/T_Sol2E_Graphics_Ambience.htm">
+        <HelpTOCNode Title="Ambience Members" Url="html/AllMembers_T_Sol2E_Graphics_Ambience.htm" />
+        <HelpTOCNode Title="Ambience Constructor " Url="html/M_Sol2E_Graphics_Ambience__ctor.htm" />
+        <HelpTOCNode Id="a85e9e55-1614-4f4a-961b-964a32cdc8f9" Title="Ambience Fields" Url="html/Fields_T_Sol2E_Graphics_Ambience.htm">
+          <HelpTOCNode Title="_ambientLightColor Field" Url="html/F_Sol2E_Graphics_Ambience__ambientLightColor.htm" />
+          <HelpTOCNode Title="_clearColor Field" Url="html/F_Sol2E_Graphics_Ambience__clearColor.htm" />
+          <HelpTOCNode Title="_fogColor Field" Url="html/F_Sol2E_Graphics_Ambience__fogColor.htm" />
+          <HelpTOCNode Title="_fogEnabled Field" Url="html/F_Sol2E_Graphics_Ambience__fogEnabled.htm" />
+          <HelpTOCNode Title="_fogEnd Field" Url="html/F_Sol2E_Graphics_Ambience__fogEnd.htm" />
+          <HelpTOCNode Title="_fogStart Field" Url="html/F_Sol2E_Graphics_Ambience__fogStart.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Ambience Methods" Url="html/Methods_T_Sol2E_Graphics_Ambience.htm" />
+        <HelpTOCNode Id="cff33158-1cc1-4f44-b203-630df5dffe0f" Title="Ambience Properties" Url="html/Properties_T_Sol2E_Graphics_Ambience.htm">
+          <HelpTOCNode Title="AmbientLightColor Property " Url="html/P_Sol2E_Graphics_Ambience_AmbientLightColor.htm" />
+          <HelpTOCNode Title="ClearColor Property " Url="html/P_Sol2E_Graphics_Ambience_ClearColor.htm" />
+          <HelpTOCNode Title="FogColor Property " Url="html/P_Sol2E_Graphics_Ambience_FogColor.htm" />
+          <HelpTOCNode Title="FogEnabled Property " Url="html/P_Sol2E_Graphics_Ambience_FogEnabled.htm" />
+          <HelpTOCNode Title="FogEnd Property " Url="html/P_Sol2E_Graphics_Ambience_FogEnd.htm" />
+          <HelpTOCNode Title="FogStart Property " Url="html/P_Sol2E_Graphics_Ambience_FogStart.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b310cede-8efa-4fd5-9ea0-ef7afe6d7320" Title="Appearance Class" Url="html/T_Sol2E_Graphics_Appearance.htm">
+        <HelpTOCNode Title="Appearance Members" Url="html/AllMembers_T_Sol2E_Graphics_Appearance.htm" />
+        <HelpTOCNode Title="Appearance Constructor " Url="html/M_Sol2E_Graphics_Appearance__ctor.htm" />
+        <HelpTOCNode Title="Appearance Constructor " Url="html/M_Sol2E_Graphics_Appearance__cctor.htm" />
+        <HelpTOCNode Id="94bb2d41-6394-4c79-9e7e-099465ad0d10" Title="Appearance Fields" Url="html/Fields_T_Sol2E_Graphics_Appearance.htm">
+          <HelpTOCNode Title="_diffuseColor Field" Url="html/F_Sol2E_Graphics_Appearance__diffuseColor.htm" />
+          <HelpTOCNode Title="_emissiveColor Field" Url="html/F_Sol2E_Graphics_Appearance__emissiveColor.htm" />
+          <HelpTOCNode Title="_renderWireframe Field" Url="html/F_Sol2E_Graphics_Appearance__renderWireframe.htm" />
+          <HelpTOCNode Title="_specularColor Field" Url="html/F_Sol2E_Graphics_Appearance__specularColor.htm" />
+          <HelpTOCNode Title="_specularPower Field" Url="html/F_Sol2E_Graphics_Appearance__specularPower.htm" />
+          <HelpTOCNode Title="_textureName Field" Url="html/F_Sol2E_Graphics_Appearance__textureName.htm" />
+          <HelpTOCNode Title="_texturingEnabled Field" Url="html/F_Sol2E_Graphics_Appearance__texturingEnabled.htm" />
+          <HelpTOCNode Title="_visible Field" Url="html/F_Sol2E_Graphics_Appearance__visible.htm" />
+          <HelpTOCNode Title="Default Field" Url="html/F_Sol2E_Graphics_Appearance_Default.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Appearance Methods" Url="html/Methods_T_Sol2E_Graphics_Appearance.htm" />
+        <HelpTOCNode Id="53ab723f-6270-4626-82c1-52d68f8a40de" Title="Appearance Properties" Url="html/Properties_T_Sol2E_Graphics_Appearance.htm">
+          <HelpTOCNode Title="DiffuseColor Property " Url="html/P_Sol2E_Graphics_Appearance_DiffuseColor.htm" />
+          <HelpTOCNode Title="EmissiveColor Property " Url="html/P_Sol2E_Graphics_Appearance_EmissiveColor.htm" />
+          <HelpTOCNode Title="RenderWireframe Property " Url="html/P_Sol2E_Graphics_Appearance_RenderWireframe.htm" />
+          <HelpTOCNode Title="SpecularColor Property " Url="html/P_Sol2E_Graphics_Appearance_SpecularColor.htm" />
+          <HelpTOCNode Title="SpecularPower Property " Url="html/P_Sol2E_Graphics_Appearance_SpecularPower.htm" />
+          <HelpTOCNode Title="TextureEnabled Property " Url="html/P_Sol2E_Graphics_Appearance_TextureEnabled.htm" />
+          <HelpTOCNode Title="TextureName Property " Url="html/P_Sol2E_Graphics_Appearance_TextureName.htm" />
+          <HelpTOCNode Title="Visible Property " Url="html/P_Sol2E_Graphics_Appearance_Visible.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="180da9bf-2483-4685-b86e-3f2a0399e159" Title="ButtonClickedScript Class" Url="html/T_Sol2E_Graphics_ButtonClickedScript.htm">
+        <HelpTOCNode Title="ButtonClickedScript Members" Url="html/AllMembers_T_Sol2E_Graphics_ButtonClickedScript.htm" />
+        <HelpTOCNode Title="ButtonClickedScript Constructor " Url="html/M_Sol2E_Graphics_ButtonClickedScript__ctor.htm" />
+        <HelpTOCNode Id="a208edf9-4395-4d85-b38b-c9240f1c4d5e" Title="ButtonClickedScript Methods" Url="html/Methods_T_Sol2E_Graphics_ButtonClickedScript.htm">
+          <HelpTOCNode Title="OnButtonClicked Method " Url="html/M_Sol2E_Graphics_ButtonClickedScript_OnButtonClicked.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ButtonClickedScript Properties" Url="html/Properties_T_Sol2E_Graphics_ButtonClickedScript.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9ceea20f-3534-42d5-8237-25b746e39280" Title="Camera Class" Url="html/T_Sol2E_Graphics_Camera.htm">
+        <HelpTOCNode Title="Camera Members" Url="html/AllMembers_T_Sol2E_Graphics_Camera.htm" />
+        <HelpTOCNode Title="Camera Constructor " Url="html/M_Sol2E_Graphics_Camera__ctor.htm" />
+        <HelpTOCNode Id="b7a00fd7-d22f-4181-a31e-b7c97264166f" Title="Camera Fields" Url="html/Fields_T_Sol2E_Graphics_Camera.htm">
+          <HelpTOCNode Title="_aspectRatio Field" Url="html/F_Sol2E_Graphics_Camera__aspectRatio.htm" />
+          <HelpTOCNode Title="_farPlaneDistance Field" Url="html/F_Sol2E_Graphics_Camera__farPlaneDistance.htm" />
+          <HelpTOCNode Title="_fieldOfView Field" Url="html/F_Sol2E_Graphics_Camera__fieldOfView.htm" />
+          <HelpTOCNode Title="_nearPlaneDistance Field" Url="html/F_Sol2E_Graphics_Camera__nearPlaneDistance.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Camera Methods" Url="html/Methods_T_Sol2E_Graphics_Camera.htm" />
+        <HelpTOCNode Id="f08191cb-ce68-4ba3-8608-9857792b774e" Title="Camera Properties" Url="html/Properties_T_Sol2E_Graphics_Camera.htm">
+          <HelpTOCNode Title="ActiveCamera Property " Url="html/P_Sol2E_Graphics_Camera_ActiveCamera.htm" />
+          <HelpTOCNode Title="AspectRatio Property " Url="html/P_Sol2E_Graphics_Camera_AspectRatio.htm" />
+          <HelpTOCNode Title="FarPlaneDistance Property " Url="html/P_Sol2E_Graphics_Camera_FarPlaneDistance.htm" />
+          <HelpTOCNode Title="FieldOfView Property " Url="html/P_Sol2E_Graphics_Camera_FieldOfView.htm" />
+          <HelpTOCNode Title="IsActive Property " Url="html/P_Sol2E_Graphics_Camera_IsActive.htm" />
+          <HelpTOCNode Title="NearPlaneDistance Property " Url="html/P_Sol2E_Graphics_Camera_NearPlaneDistance.htm" />
+          <HelpTOCNode Title="Projection Property " Url="html/P_Sol2E_Graphics_Camera_Projection.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1795fc6f-8013-4652-a8e7-aa2cbd66a691" Title="ColorExtensions Class" Url="html/T_Sol2E_Graphics_ColorExtensions.htm">
+        <HelpTOCNode Title="ColorExtensions Members" Url="html/AllMembers_T_Sol2E_Graphics_ColorExtensions.htm" />
+        <HelpTOCNode Id="cfbe134b-3575-413c-ad75-0a53a2faf269" Title="ColorExtensions Methods" Url="html/Methods_T_Sol2E_Graphics_ColorExtensions.htm">
+          <HelpTOCNode Title="AddAlpha Method " Url="html/M_Sol2E_Graphics_ColorExtensions_AddAlpha.htm" />
+          <HelpTOCNode Title="Inverted Method " Url="html/M_Sol2E_Graphics_ColorExtensions_Inverted.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="dad66063-fb56-426a-b29c-9e30832d7309" Title="DichtionaryExtensions Class" Url="html/T_Sol2E_Graphics_DichtionaryExtensions.htm">
+        <HelpTOCNode Title="DichtionaryExtensions Members" Url="html/AllMembers_T_Sol2E_Graphics_DichtionaryExtensions.htm" />
+        <HelpTOCNode Id="4d43c18b-a918-42e0-b0d6-cd1921d8725d" Title="DichtionaryExtensions Methods" Url="html/Methods_T_Sol2E_Graphics_DichtionaryExtensions.htm">
+          <HelpTOCNode Title="TryAdd(TKey, TValue) Method " Url="html/M_Sol2E_Graphics_DichtionaryExtensions_TryAdd__2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="11f088d4-6550-46c3-a2fd-f1ceac567680" Title="DirectionalLight Class" Url="html/T_Sol2E_Graphics_DirectionalLight.htm">
+        <HelpTOCNode Title="DirectionalLight Members" Url="html/AllMembers_T_Sol2E_Graphics_DirectionalLight.htm" />
+        <HelpTOCNode Title="DirectionalLight Constructor " Url="html/M_Sol2E_Graphics_DirectionalLight__ctor.htm" />
+        <HelpTOCNode Id="f32ef4c2-84df-43a2-820d-76d1fd5ad887" Title="DirectionalLight Fields" Url="html/Fields_T_Sol2E_Graphics_DirectionalLight.htm">
+          <HelpTOCNode Title="_diffuseColor Field" Url="html/F_Sol2E_Graphics_DirectionalLight__diffuseColor.htm" />
+          <HelpTOCNode Title="_direction Field" Url="html/F_Sol2E_Graphics_DirectionalLight__direction.htm" />
+          <HelpTOCNode Title="_enabled Field" Url="html/F_Sol2E_Graphics_DirectionalLight__enabled.htm" />
+          <HelpTOCNode Title="_specularColor Field" Url="html/F_Sol2E_Graphics_DirectionalLight__specularColor.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="DirectionalLight Methods" Url="html/Methods_T_Sol2E_Graphics_DirectionalLight.htm" />
+        <HelpTOCNode Id="4c4794e5-f2f6-4621-8206-fd2f85a99e60" Title="DirectionalLight Properties" Url="html/Properties_T_Sol2E_Graphics_DirectionalLight.htm">
+          <HelpTOCNode Title="DiffuseColor Property " Url="html/P_Sol2E_Graphics_DirectionalLight_DiffuseColor.htm" />
+          <HelpTOCNode Title="Direction Property " Url="html/P_Sol2E_Graphics_DirectionalLight_Direction.htm" />
+          <HelpTOCNode Title="Enabled Property " Url="html/P_Sol2E_Graphics_DirectionalLight_Enabled.htm" />
+          <HelpTOCNode Title="SpecularColor Property " Url="html/P_Sol2E_Graphics_DirectionalLight_SpecularColor.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ef8bb380-a7ac-47db-abcb-ca54c981f0a2" Title="GraphicsSystem Class" Url="html/T_Sol2E_Graphics_GraphicsSystem.htm">
+        <HelpTOCNode Title="GraphicsSystem Members" Url="html/AllMembers_T_Sol2E_Graphics_GraphicsSystem.htm" />
+        <HelpTOCNode Title="GraphicsSystem Constructor " Url="html/M_Sol2E_Graphics_GraphicsSystem__ctor.htm" />
+        <HelpTOCNode Id="42803a5b-8cb4-4934-a9e7-ca921f99d343" Title="GraphicsSystem Fields" Url="html/Fields_T_Sol2E_Graphics_GraphicsSystem.htm">
+          <HelpTOCNode Title="_clearColor Field" Url="html/F_Sol2E_Graphics_GraphicsSystem__clearColor.htm" />
+          <HelpTOCNode Title="_globalRenderWireframe Field" Url="html/F_Sol2E_Graphics_GraphicsSystem__globalRenderWireframe.htm" />
+          <HelpTOCNode Title="_globalTextureEnabled Field" Url="html/F_Sol2E_Graphics_GraphicsSystem__globalTextureEnabled.htm" />
+          <HelpTOCNode Title="_lightingEnabled Field" Url="html/F_Sol2E_Graphics_GraphicsSystem__lightingEnabled.htm" />
+          <HelpTOCNode Title="_preferPerPixelLighting Field" Url="html/F_Sol2E_Graphics_GraphicsSystem__preferPerPixelLighting.htm" />
+          <HelpTOCNode Title="BasicEffect Field" Url="html/F_Sol2E_Graphics_GraphicsSystem_BasicEffect.htm" />
+          <HelpTOCNode Title="DirectionalLights Field" Url="html/F_Sol2E_Graphics_GraphicsSystem_DirectionalLights.htm" />
+          <HelpTOCNode Title="Fonts Field" Url="html/F_Sol2E_Graphics_GraphicsSystem_Fonts.htm" />
+          <HelpTOCNode Title="MeshRenderers Field" Url="html/F_Sol2E_Graphics_GraphicsSystem_MeshRenderers.htm" />
+          <HelpTOCNode Title="RasterizerScissorTest Field" Url="html/F_Sol2E_Graphics_GraphicsSystem_RasterizerScissorTest.htm" />
+          <HelpTOCNode Title="RasterizerStateWireFrame Field" Url="html/F_Sol2E_Graphics_GraphicsSystem_RasterizerStateWireFrame.htm" />
+          <HelpTOCNode Title="SpriteBatch Field" Url="html/F_Sol2E_Graphics_GraphicsSystem_SpriteBatch.htm" />
+          <HelpTOCNode Title="Textures Field" Url="html/F_Sol2E_Graphics_GraphicsSystem_Textures.htm" />
+          <HelpTOCNode Title="UserInterfaces Field" Url="html/F_Sol2E_Graphics_GraphicsSystem_UserInterfaces.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d9b65e12-7f9f-420d-b46e-b9fb5bde0430" Title="GraphicsSystem Methods" Url="html/Methods_T_Sol2E_Graphics_GraphicsSystem.htm">
+          <HelpTOCNode Title="AddEntityResources Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_AddEntityResources.htm" />
+          <HelpTOCNode Title="AddFontByName Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_AddFontByName.htm" />
+          <HelpTOCNode Title="AddTexture Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_AddTexture.htm" />
+          <HelpTOCNode Title="AddTextureByColor Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_AddTextureByColor.htm" />
+          <HelpTOCNode Title="AddTextureByName Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_AddTextureByName.htm" />
+          <HelpTOCNode Title="AddUserInterfaceResources Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_AddUserInterfaceResources.htm" />
+          <HelpTOCNode Title="AmbienceChanged Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_AmbienceChanged.htm" />
+          <HelpTOCNode Title="AppearanceChanged Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_AppearanceChanged.htm" />
+          <HelpTOCNode Title="BlendStateFromAlpha Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_BlendStateFromAlpha.htm" />
+          <HelpTOCNode Title="CameraChanged Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_CameraChanged.htm" />
+          <HelpTOCNode Title="CopyBasicEffectToModelEffect Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_CopyBasicEffectToModelEffect.htm" />
+          <HelpTOCNode Title="DirectionalLightChanged Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_DirectionalLightChanged.htm" />
+          <HelpTOCNode Id="0d7b2b37-87a3-47b8-a713-799077d47058" Title="Dispose Method " Url="html/Overload_Sol2E_Graphics_GraphicsSystem_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Sol2E_Graphics_GraphicsSystem_Dispose.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="9e5e280b-c878-41ea-9fbd-29e25d71b44a" Title="Draw Method " Url="html/Overload_Sol2E_Graphics_GraphicsSystem_Draw.htm">
+            <HelpTOCNode Title="Draw Method (Single)" Url="html/M_Sol2E_Graphics_GraphicsSystem_Draw.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Draw3DMeshEntity Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_Draw3DMeshEntity.htm" />
+          <HelpTOCNode Title="Draw3DModelEntity Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_Draw3DModelEntity.htm" />
+          <HelpTOCNode Title="DrawEntity Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_DrawEntity.htm" />
+          <HelpTOCNode Title="DrawUIElement Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_DrawUIElement.htm" />
+          <HelpTOCNode Title="DrawUIElementContent Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_DrawUIElementContent.htm" />
+          <HelpTOCNode Title="DrawUILabelText Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_DrawUILabelText.htm" />
+          <HelpTOCNode Title="EntityChanged Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_EntityChanged.htm" />
+          <HelpTOCNode Title="EntityIsInFrustum Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_EntityIsInFrustum.htm" />
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_Initialize.htm" />
+          <HelpTOCNode Title="RasterizerStateFromAlphaAndFillMode Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_RasterizerStateFromAlphaAndFillMode.htm" />
+          <HelpTOCNode Title="RemoveEntityResources Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_RemoveEntityResources.htm" />
+          <HelpTOCNode Title="RemoveFontByName Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_RemoveFontByName.htm" />
+          <HelpTOCNode Title="RemoveTextureByName Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_RemoveTextureByName.htm" />
+          <HelpTOCNode Title="RemoveUserInterfaceResources Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_RemoveUserInterfaceResources.htm" />
+          <HelpTOCNode Title="ResizeUserInterfaces Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_ResizeUserInterfaces.htm" />
+          <HelpTOCNode Title="SceneChanged Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_SceneChanged.htm" />
+          <HelpTOCNode Title="SetupCommonEffectsFromAppearance Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_SetupCommonEffectsFromAppearance.htm" />
+          <HelpTOCNode Id="4da5fb9e-27b6-4afa-82ab-f8f1e0b052ba" Title="SetupXnaDirectionalLight Method " Url="html/Overload_Sol2E_Graphics_GraphicsSystem_SetupXnaDirectionalLight.htm">
+            <HelpTOCNode Title="SetupXnaDirectionalLight Method (, )" Url="html/M_Sol2E_Graphics_GraphicsSystem_SetupXnaDirectionalLight.htm" />
+            <HelpTOCNode Title="SetupXnaDirectionalLight Method (, DirectionalLight)" Url="html/M_Sol2E_Graphics_GraphicsSystem_SetupXnaDirectionalLight_2.htm" />
+            <HelpTOCNode Title="SetupXnaDirectionalLight Method (, , , , Boolean)" Url="html/M_Sol2E_Graphics_GraphicsSystem_SetupXnaDirectionalLight_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="TryToSetupDirectionalLight Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_TryToSetupDirectionalLight.htm" />
+          <HelpTOCNode Id="c89049a1-c77c-4d4d-8701-e7c79d028b58" Title="Update Method " Url="html/Overload_Sol2E_Graphics_GraphicsSystem_Update.htm">
+            <HelpTOCNode Title="Update Method (Single)" Url="html/M_Sol2E_Graphics_GraphicsSystem_Update.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="UserInterfaceChanged Method " Url="html/M_Sol2E_Graphics_GraphicsSystem_UserInterfaceChanged.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5d25db0f-64fa-4a84-b78d-857bf4d79f78" Title="GraphicsSystem Properties" Url="html/Properties_T_Sol2E_Graphics_GraphicsSystem.htm">
+          <HelpTOCNode Title="GraphicsDevice Property " Url="html/P_Sol2E_Graphics_GraphicsSystem_GraphicsDevice.htm" />
+          <HelpTOCNode Title="LightingEnabled Property " Url="html/P_Sol2E_Graphics_GraphicsSystem_LightingEnabled.htm" />
+          <HelpTOCNode Title="PreferPerPixelLighting Property " Url="html/P_Sol2E_Graphics_GraphicsSystem_PreferPerPixelLighting.htm" />
+          <HelpTOCNode Title="RenderWireframe Property " Url="html/P_Sol2E_Graphics_GraphicsSystem_RenderWireframe.htm" />
+          <HelpTOCNode Title="TextureEnabled Property " Url="html/P_Sol2E_Graphics_GraphicsSystem_TextureEnabled.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="5f0285de-7784-48f9-8d70-4158c4564590" Title="GraphicsSystem.SharedFont Class" Url="html/T_Sol2E_Graphics_GraphicsSystem_SharedFont.htm">
+        <HelpTOCNode Title="GraphicsSystem.SharedFont Members" Url="html/AllMembers_T_Sol2E_Graphics_GraphicsSystem_SharedFont.htm" />
+        <HelpTOCNode Title="GraphicsSystem.SharedFont Constructor " Url="html/M_Sol2E_Graphics_GraphicsSystem_SharedFont__ctor.htm" />
+        <HelpTOCNode Id="ca26d501-6ad3-4bb5-9f22-54f021a31992" Title="GraphicsSystem.SharedFont Properties" Url="html/Properties_T_Sol2E_Graphics_GraphicsSystem_SharedFont.htm">
+          <HelpTOCNode Title="Count Property " Url="html/P_Sol2E_Graphics_GraphicsSystem_SharedFont_Count.htm" />
+          <HelpTOCNode Title="Font Property " Url="html/P_Sol2E_Graphics_GraphicsSystem_SharedFont_Font.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="03d7e045-71e8-423f-89b3-46cde5975817" Title="GraphicsSystem.SharedTexture Class" Url="html/T_Sol2E_Graphics_GraphicsSystem_SharedTexture.htm">
+        <HelpTOCNode Title="GraphicsSystem.SharedTexture Members" Url="html/AllMembers_T_Sol2E_Graphics_GraphicsSystem_SharedTexture.htm" />
+        <HelpTOCNode Title="GraphicsSystem.SharedTexture Constructor " Url="html/M_Sol2E_Graphics_GraphicsSystem_SharedTexture__ctor.htm" />
+        <HelpTOCNode Id="fc89ea19-2498-4735-a285-49232958ece4" Title="GraphicsSystem.SharedTexture Properties" Url="html/Properties_T_Sol2E_Graphics_GraphicsSystem_SharedTexture.htm">
+          <HelpTOCNode Title="Count Property " Url="html/P_Sol2E_Graphics_GraphicsSystem_SharedTexture_Count.htm" />
+          <HelpTOCNode Title="Texture Property " Url="html/P_Sol2E_Graphics_GraphicsSystem_SharedTexture_Texture.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3c6dcaa0-3144-4976-a849-7a68df27d28f" Title="MeshRenderer Class" Url="html/T_Sol2E_Graphics_MeshRenderer.htm">
+        <HelpTOCNode Title="MeshRenderer Members" Url="html/AllMembers_T_Sol2E_Graphics_MeshRenderer.htm" />
+        <HelpTOCNode Id="987e5a57-188b-4f61-a903-1cf9a808dd45" Title="MeshRenderer Constructor " Url="html/Overload_Sol2E_Graphics_MeshRenderer__ctor.htm">
+          <HelpTOCNode Title="MeshRenderer Constructor (ModelMesh, IResourceManager)" Url="html/M_Sol2E_Graphics_MeshRenderer__ctor.htm" />
+          <HelpTOCNode Title="MeshRenderer Constructor (SimpleMesh, )" Url="html/M_Sol2E_Graphics_MeshRenderer__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ea3d43b4-881a-4150-bd27-96499415381e" Title="MeshRenderer Properties" Url="html/Properties_T_Sol2E_Graphics_MeshRenderer.htm">
+          <HelpTOCNode Title="IndexBuffer Property " Url="html/P_Sol2E_Graphics_MeshRenderer_IndexBuffer.htm" />
+          <HelpTOCNode Title="IsModel Property " Url="html/P_Sol2E_Graphics_MeshRenderer_IsModel.htm" />
+          <HelpTOCNode Title="Model Property " Url="html/P_Sol2E_Graphics_MeshRenderer_Model.htm" />
+          <HelpTOCNode Title="VertexBuffer Property " Url="html/P_Sol2E_Graphics_MeshRenderer_VertexBuffer.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="459d23ee-43d3-45ce-bcbf-4a38eb126041" Title="UserInterface Class" Url="html/T_Sol2E_Graphics_UserInterface.htm">
+        <HelpTOCNode Title="UserInterface Members" Url="html/AllMembers_T_Sol2E_Graphics_UserInterface.htm" />
+        <HelpTOCNode Title="UserInterface Constructor " Url="html/M_Sol2E_Graphics_UserInterface__ctor.htm" />
+        <HelpTOCNode Id="225d8574-8066-4f26-8f96-6cf5f07cf8a7" Title="UserInterface Fields" Url="html/Fields_T_Sol2E_Graphics_UserInterface.htm">
+          <HelpTOCNode Title="_name Field" Url="html/F_Sol2E_Graphics_UserInterface__name.htm" />
+          <HelpTOCNode Title="_rootElement Field" Url="html/F_Sol2E_Graphics_UserInterface__rootElement.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="UserInterface Methods" Url="html/Methods_T_Sol2E_Graphics_UserInterface.htm" />
+        <HelpTOCNode Id="b7475004-95ad-41fd-a372-95e92d24636e" Title="UserInterface Properties" Url="html/Properties_T_Sol2E_Graphics_UserInterface.htm">
+          <HelpTOCNode Title="Name Property " Url="html/P_Sol2E_Graphics_UserInterface_Name.htm" />
+          <HelpTOCNode Title="RootElement Property " Url="html/P_Sol2E_Graphics_UserInterface_RootElement.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8797e397-bfe4-4016-b5f9-1fb64bcc5e21" Title="Sol2E.Graphics.UI Namespace" Url="html/N_Sol2E_Graphics_UI.htm">
+      <HelpTOCNode Id="be017483-ed68-485d-95c7-39f88b2d86c7" Title="UIButton Class" Url="html/T_Sol2E_Graphics_UI_UIButton.htm">
+        <HelpTOCNode Title="UIButton Members" Url="html/AllMembers_T_Sol2E_Graphics_UI_UIButton.htm" />
+        <HelpTOCNode Title="UIButton Constructor " Url="html/M_Sol2E_Graphics_UI_UIButton__ctor.htm" />
+        <HelpTOCNode Title="UIButton Constructor " Url="html/M_Sol2E_Graphics_UI_UIButton__cctor.htm" />
+        <HelpTOCNode Id="f5d764a5-2bc8-4b7a-9d3f-80828326177e" Title="UIButton Fields" Url="html/Fields_T_Sol2E_Graphics_UI_UIButton.htm">
+          <HelpTOCNode Title="_timeWhenLastSelected Field" Url="html/F_Sol2E_Graphics_UI_UIButton__timeWhenLastSelected.htm" />
+          <HelpTOCNode Title="DurationOfStayingSelected Field" Url="html/F_Sol2E_Graphics_UI_UIButton_DurationOfStayingSelected.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="27b25aee-acf3-4401-a91d-43b7bafcbf87" Title="UIButton Methods" Url="html/Methods_T_Sol2E_Graphics_UI_UIButton.htm">
+          <HelpTOCNode Id="15d3b9a4-901e-4975-8126-b3c778faa553" Title="Update Method " Url="html/Overload_Sol2E_Graphics_UI_UIButton_Update.htm">
+            <HelpTOCNode Title="Update Method ()" Url="html/M_Sol2E_Graphics_UI_UIButton_Update.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="ed72b442-9b89-4db2-b580-3836be9b778c" Title="UIButton Properties" Url="html/Properties_T_Sol2E_Graphics_UI_UIButton.htm">
+          <HelpTOCNode Title="Hightlighted Property " Url="html/P_Sol2E_Graphics_UI_UIButton_Hightlighted.htm" />
+          <HelpTOCNode Title="HightlightedBackgroundColor Property " Url="html/P_Sol2E_Graphics_UI_UIButton_HightlightedBackgroundColor.htm" />
+          <HelpTOCNode Title="HightlightedForegrundColor Property " Url="html/P_Sol2E_Graphics_UI_UIButton_HightlightedForegrundColor.htm" />
+          <HelpTOCNode Title="Selected Property " Url="html/P_Sol2E_Graphics_UI_UIButton_Selected.htm" />
+          <HelpTOCNode Title="SelectedBackgroundColor Property " Url="html/P_Sol2E_Graphics_UI_UIButton_SelectedBackgroundColor.htm" />
+          <HelpTOCNode Title="SelectedForegrundColor Property " Url="html/P_Sol2E_Graphics_UI_UIButton_SelectedForegrundColor.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fec92e60-b2de-43f0-80a0-fe4463b2b15d" Title="UIButtonClickedEvent Class" Url="html/T_Sol2E_Graphics_UI_UIButtonClickedEvent.htm">
+        <HelpTOCNode Title="UIButtonClickedEvent Members" Url="html/AllMembers_T_Sol2E_Graphics_UI_UIButtonClickedEvent.htm" />
+        <HelpTOCNode Id="4c085ed9-4f6a-43ed-8a17-bc9cd88228fa" Title="UIButtonClickedEvent Methods" Url="html/Methods_T_Sol2E_Graphics_UI_UIButtonClickedEvent.htm">
+          <HelpTOCNode Title="Invoke Method " Url="html/M_Sol2E_Graphics_UI_UIButtonClickedEvent_Invoke.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6d2dce74-adce-4659-a9b8-74e734c2786f" Title="UIButtonClickedEvent Events" Url="html/Events_T_Sol2E_Graphics_UI_UIButtonClickedEvent.htm">
+          <HelpTOCNode Title="UIButtonClicked Event" Url="html/E_Sol2E_Graphics_UI_UIButtonClickedEvent_UIButtonClicked.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="UIButtonClickedEventHandler Delegate" Url="html/T_Sol2E_Graphics_UI_UIButtonClickedEventHandler.htm" />
+      <HelpTOCNode Id="d50fd210-4eab-43af-b146-f3ee9c9816b9" Title="UIElement Class" Url="html/T_Sol2E_Graphics_UI_UIElement.htm">
+        <HelpTOCNode Title="UIElement Members" Url="html/AllMembers_T_Sol2E_Graphics_UI_UIElement.htm" />
+        <HelpTOCNode Title="UIElement Constructor " Url="html/M_Sol2E_Graphics_UI_UIElement__ctor.htm" />
+        <HelpTOCNode Id="7cec026b-89d3-47c1-bed6-92fcc25d7a28" Title="UIElement Fields" Url="html/Fields_T_Sol2E_Graphics_UI_UIElement.htm">
+          <HelpTOCNode Title="_rectangle Field" Url="html/F_Sol2E_Graphics_UI_UIElement__rectangle.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6447e0af-2dfe-41d0-8997-85740443fb4a" Title="UIElement Methods" Url="html/Methods_T_Sol2E_Graphics_UI_UIElement.htm">
+          <HelpTOCNode Title="AddChildElemet Method " Url="html/M_Sol2E_Graphics_UI_UIElement_AddChildElemet.htm" />
+          <HelpTOCNode Title="GetChildByTitle Method " Url="html/M_Sol2E_Graphics_UI_UIElement_GetChildByTitle.htm" />
+          <HelpTOCNode Title="GetResources Method " Url="html/M_Sol2E_Graphics_UI_UIElement_GetResources.htm" />
+          <HelpTOCNode Title="GetRoot Method " Url="html/M_Sol2E_Graphics_UI_UIElement_GetRoot.htm" />
+          <HelpTOCNode Title="RemoveChildElement Method " Url="html/M_Sol2E_Graphics_UI_UIElement_RemoveChildElement.htm" />
+          <HelpTOCNode Title="RemoveFromParent Method " Url="html/M_Sol2E_Graphics_UI_UIElement_RemoveFromParent.htm" />
+          <HelpTOCNode Title="Resize Method " Url="html/M_Sol2E_Graphics_UI_UIElement_Resize.htm" />
+          <HelpTOCNode Id="57fd9aba-11ee-4c1e-901a-2de3ab7d3a3e" Title="Update Method " Url="html/Overload_Sol2E_Graphics_UI_UIElement_Update.htm">
+            <HelpTOCNode Title="Update Method " Url="html/M_Sol2E_Graphics_UI_UIElement_Update.htm" />
+            <HelpTOCNode Title="Update Method ()" Url="html/M_Sol2E_Graphics_UI_UIElement_Update_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="c18836a6-0560-49aa-9600-0747bcd89b43" Title="UIElement Properties" Url="html/Properties_T_Sol2E_Graphics_UI_UIElement.htm">
+          <HelpTOCNode Title="BackgroundColor Property " Url="html/P_Sol2E_Graphics_UI_UIElement_BackgroundColor.htm" />
+          <HelpTOCNode Title="Children Property " Url="html/P_Sol2E_Graphics_UI_UIElement_Children.htm" />
+          <HelpTOCNode Title="ClipChildren Property " Url="html/P_Sol2E_Graphics_UI_UIElement_ClipChildren.htm" />
+          <HelpTOCNode Title="Enabled Property " Url="html/P_Sol2E_Graphics_UI_UIElement_Enabled.htm" />
+          <HelpTOCNode Title="GlobalPos Property " Url="html/P_Sol2E_Graphics_UI_UIElement_GlobalPos.htm" />
+          <HelpTOCNode Title="GlobalRect Property " Url="html/P_Sol2E_Graphics_UI_UIElement_GlobalRect.htm" />
+          <HelpTOCNode Title="Height Property " Url="html/P_Sol2E_Graphics_UI_UIElement_Height.htm" />
+          <HelpTOCNode Title="LocalPos Property " Url="html/P_Sol2E_Graphics_UI_UIElement_LocalPos.htm" />
+          <HelpTOCNode Title="LocalRect Property " Url="html/P_Sol2E_Graphics_UI_UIElement_LocalRect.htm" />
+          <HelpTOCNode Title="Parent Property " Url="html/P_Sol2E_Graphics_UI_UIElement_Parent.htm" />
+          <HelpTOCNode Title="TextureName Property " Url="html/P_Sol2E_Graphics_UI_UIElement_TextureName.htm" />
+          <HelpTOCNode Title="Title Property " Url="html/P_Sol2E_Graphics_UI_UIElement_Title.htm" />
+          <HelpTOCNode Title="Visible Property " Url="html/P_Sol2E_Graphics_UI_UIElement_Visible.htm" />
+          <HelpTOCNode Title="Width Property " Url="html/P_Sol2E_Graphics_UI_UIElement_Width.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="UIHorizontalTextAllignment Enumeration" Url="html/T_Sol2E_Graphics_UI_UIHorizontalTextAllignment.htm" />
+      <HelpTOCNode Id="331324b0-f975-43f2-bead-ed6c12dbcc9f" Title="UILabel Class" Url="html/T_Sol2E_Graphics_UI_UILabel.htm">
+        <HelpTOCNode Title="UILabel Members" Url="html/AllMembers_T_Sol2E_Graphics_UI_UILabel.htm" />
+        <HelpTOCNode Title="UILabel Constructor " Url="html/M_Sol2E_Graphics_UI_UILabel__ctor.htm" />
+        <HelpTOCNode Title="UILabel Fields" Url="html/Fields_T_Sol2E_Graphics_UI_UILabel.htm" />
+        <HelpTOCNode Id="1b6f99c6-2578-43d6-86e8-c78784a35c51" Title="UILabel Methods" Url="html/Methods_T_Sol2E_Graphics_UI_UILabel.htm">
+          <HelpTOCNode Title="GetResources Method " Url="html/M_Sol2E_Graphics_UI_UILabel_GetResources.htm" />
+          <HelpTOCNode Title="GetTextPositionRegardingAllignment Method " Url="html/M_Sol2E_Graphics_UI_UILabel_GetTextPositionRegardingAllignment.htm" />
+          <HelpTOCNode Title="Resize Method " Url="html/M_Sol2E_Graphics_UI_UILabel_Resize.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="97e71ea9-7079-4286-92fe-b934e2b5f0f0" Title="UILabel Properties" Url="html/Properties_T_Sol2E_Graphics_UI_UILabel.htm">
+          <HelpTOCNode Title="FontName Property " Url="html/P_Sol2E_Graphics_UI_UILabel_FontName.htm" />
+          <HelpTOCNode Title="FontScale Property " Url="html/P_Sol2E_Graphics_UI_UILabel_FontScale.htm" />
+          <HelpTOCNode Title="ForegroundColor Property " Url="html/P_Sol2E_Graphics_UI_UILabel_ForegroundColor.htm" />
+          <HelpTOCNode Title="HorizontalTextAllignment Property " Url="html/P_Sol2E_Graphics_UI_UILabel_HorizontalTextAllignment.htm" />
+          <HelpTOCNode Title="Text Property " Url="html/P_Sol2E_Graphics_UI_UILabel_Text.htm" />
+          <HelpTOCNode Title="VerticalTextAllignment Property " Url="html/P_Sol2E_Graphics_UI_UILabel_VerticalTextAllignment.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="UIVerticalTextAllignment Enumeration" Url="html/T_Sol2E_Graphics_UI_UIVerticalTextAllignment.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a691766c-49fd-4b46-a464-196b2696c7b1" Title="Sol2E.Input Namespace" Url="html/N_Sol2E_Input.htm">
+      <HelpTOCNode Id="c95b3ca2-910d-4af7-b281-4d8932683bc7" Title="ComplexInputCondition Class" Url="html/T_Sol2E_Input_ComplexInputCondition.htm">
+        <HelpTOCNode Title="ComplexInputCondition Members" Url="html/AllMembers_T_Sol2E_Input_ComplexInputCondition.htm" />
+        <HelpTOCNode Title="ComplexInputCondition Constructor " Url="html/M_Sol2E_Input_ComplexInputCondition__ctor.htm" />
+        <HelpTOCNode Id="19b40157-5782-44a8-90e4-6de9d1d57a08" Title="ComplexInputCondition Fields" Url="html/Fields_T_Sol2E_Input_ComplexInputCondition.htm">
+          <HelpTOCNode Title="_simpleConditions Field" Url="html/F_Sol2E_Input_ComplexInputCondition__simpleConditions.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d0a32c81-d45b-4e13-bcbd-8dcbc4fb9a7a" Title="ComplexInputCondition Methods" Url="html/Methods_T_Sol2E_Input_ComplexInputCondition.htm">
+          <HelpTOCNode Title="IsMet Method " Url="html/M_Sol2E_Input_ComplexInputCondition_IsMet.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9202ce12-520d-4e4a-9875-ff5c6d5a7e8f" Title="ComplexInputCondition Properties" Url="html/Properties_T_Sol2E_Input_ComplexInputCondition.htm">
+          <HelpTOCNode Title="Active Property " Url="html/P_Sol2E_Input_ComplexInputCondition_Active.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="2a6495a8-bbf3-457c-9662-3070194f5905" Title="IInputCondition Interface" Url="html/T_Sol2E_Input_IInputCondition.htm">
+        <HelpTOCNode Title="IInputCondition Members" Url="html/AllMembers_T_Sol2E_Input_IInputCondition.htm" />
+        <HelpTOCNode Id="358dfb8e-34fa-4a79-bb1b-34ce89feba25" Title="IInputCondition Methods" Url="html/Methods_T_Sol2E_Input_IInputCondition.htm">
+          <HelpTOCNode Title="IsMet Method " Url="html/M_Sol2E_Input_IInputCondition_IsMet.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="86693a68-f914-496e-9caa-5b0b964b8613" Title="IInputCondition Properties" Url="html/Properties_T_Sol2E_Input_IInputCondition.htm">
+          <HelpTOCNode Title="Active Property " Url="html/P_Sol2E_Input_IInputCondition_Active.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9f31edd1-1dec-4d06-a018-bd12215364e5" Title="InputDevice Class" Url="html/T_Sol2E_Input_InputDevice.htm">
+        <HelpTOCNode Title="InputDevice Members" Url="html/AllMembers_T_Sol2E_Input_InputDevice.htm" />
+        <HelpTOCNode Title="InputDevice Constructor " Url="html/M_Sol2E_Input_InputDevice__cctor.htm" />
+        <HelpTOCNode Id="f7521d4e-c83b-4cc9-9cd5-ce711028fff8" Title="InputDevice Fields" Url="html/Fields_T_Sol2E_Input_InputDevice.htm">
+          <HelpTOCNode Title="_lockMouse Field" Url="html/F_Sol2E_Input_InputDevice__lockMouse.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b8047315-7038-4ac1-ac7d-30ee1d4561d6" Title="InputDevice Methods" Url="html/Methods_T_Sol2E_Input_InputDevice.htm">
+          <HelpTOCNode Title="ResetMouseToCenter Method " Url="html/M_Sol2E_Input_InputDevice_ResetMouseToCenter.htm" />
+          <HelpTOCNode Title="UpdateCurrent Method " Url="html/M_Sol2E_Input_InputDevice_UpdateCurrent.htm" />
+          <HelpTOCNode Title="UpdatePrevious Method " Url="html/M_Sol2E_Input_InputDevice_UpdatePrevious.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="deac6906-fbef-49a7-91c2-b29298053170" Title="InputDevice Properties" Url="html/Properties_T_Sol2E_Input_InputDevice.htm">
+          <HelpTOCNode Title="IsMouseClicked Property " Url="html/P_Sol2E_Input_InputDevice_IsMouseClicked.htm" />
+          <HelpTOCNode Title="IsMouseLocked Property " Url="html/P_Sol2E_Input_InputDevice_IsMouseLocked.htm" />
+          <HelpTOCNode Title="KeyboardCurrent Property " Url="html/P_Sol2E_Input_InputDevice_KeyboardCurrent.htm" />
+          <HelpTOCNode Title="KeyboardPrevious Property " Url="html/P_Sol2E_Input_InputDevice_KeyboardPrevious.htm" />
+          <HelpTOCNode Title="MouseCurrent Property " Url="html/P_Sol2E_Input_InputDevice_MouseCurrent.htm" />
+          <HelpTOCNode Title="MousePosition Property " Url="html/P_Sol2E_Input_InputDevice_MousePosition.htm" />
+          <HelpTOCNode Title="MousePrevious Property " Url="html/P_Sol2E_Input_InputDevice_MousePrevious.htm" />
+          <HelpTOCNode Title="MouseRelativeWeel Property " Url="html/P_Sol2E_Input_InputDevice_MouseRelativeWeel.htm" />
+          <HelpTOCNode Title="MouseRelativeX Property " Url="html/P_Sol2E_Input_InputDevice_MouseRelativeX.htm" />
+          <HelpTOCNode Title="MouseRelativeY Property " Url="html/P_Sol2E_Input_InputDevice_MouseRelativeY.htm" />
+          <HelpTOCNode Title="ScreenCenter Property " Url="html/P_Sol2E_Input_InputDevice_ScreenCenter.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="96765af2-a72b-4d10-b451-4200ab51fbca" Title="InputScript Class" Url="html/T_Sol2E_Input_InputScript.htm">
+        <HelpTOCNode Title="InputScript Members" Url="html/AllMembers_T_Sol2E_Input_InputScript.htm" />
+        <HelpTOCNode Id="29d8ef46-08ce-4b06-ba72-427f6ed29704" Title="InputScript Constructor " Url="html/Overload_Sol2E_Input_InputScript__ctor.htm">
+          <HelpTOCNode Title="InputScript Constructor " Url="html/M_Sol2E_Input_InputScript__ctor.htm" />
+          <HelpTOCNode Title="InputScript Constructor (IInputCondition)" Url="html/M_Sol2E_Input_InputScript__ctor_1.htm" />
+          <HelpTOCNode Title="InputScript Constructor (ICollection(IInputCondition))" Url="html/M_Sol2E_Input_InputScript__ctor_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c8e19234-fa4d-4b13-b578-2196a211b910" Title="InputScript Fields" Url="html/Fields_T_Sol2E_Input_InputScript.htm">
+          <HelpTOCNode Title="_enabled Field" Url="html/F_Sol2E_Input_InputScript__enabled.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f18f1792-906d-4df5-9ea1-c2b33264d500" Title="InputScript Methods" Url="html/Methods_T_Sol2E_Input_InputScript.htm">
+          <HelpTOCNode Title="OnInput Method " Url="html/M_Sol2E_Input_InputScript_OnInput.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ae46cc5b-f369-4b3a-a3d6-94dcb80d1df3" Title="InputScript Properties" Url="html/Properties_T_Sol2E_Input_InputScript.htm">
+          <HelpTOCNode Title="Action Property " Url="html/P_Sol2E_Input_InputScript_Action.htm" />
+          <HelpTOCNode Title="Conditions Property " Url="html/P_Sol2E_Input_InputScript_Conditions.htm" />
+          <HelpTOCNode Title="Enabled Property " Url="html/P_Sol2E_Input_InputScript_Enabled.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="InputSource Enumeration" Url="html/T_Sol2E_Input_InputSource.htm" />
+      <HelpTOCNode Title="InputState Enumeration" Url="html/T_Sol2E_Input_InputState.htm" />
+      <HelpTOCNode Id="6ce8c112-c4a3-46ec-87d2-59647567298a" Title="InputSystem Class" Url="html/T_Sol2E_Input_InputSystem.htm">
+        <HelpTOCNode Title="InputSystem Members" Url="html/AllMembers_T_Sol2E_Input_InputSystem.htm" />
+        <HelpTOCNode Title="InputSystem Constructor " Url="html/M_Sol2E_Input_InputSystem__ctor.htm" />
+        <HelpTOCNode Id="1ce41a00-a055-41de-a111-41f25f937a26" Title="InputSystem Fields" Url="html/Fields_T_Sol2E_Input_InputSystem.htm">
+          <HelpTOCNode Title="InputScripts Field" Url="html/F_Sol2E_Input_InputSystem_InputScripts.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9ec4202e-1a42-4460-bdf3-7e3e4a676373" Title="InputSystem Methods" Url="html/Methods_T_Sol2E_Input_InputSystem.htm">
+          <HelpTOCNode Title="AddEntityResources Method " Url="html/M_Sol2E_Input_InputSystem_AddEntityResources.htm" />
+          <HelpTOCNode Id="bca7e996-eb36-4c77-8a8f-649d5a4fca66" Title="Dispose Method " Url="html/Overload_Sol2E_Input_InputSystem_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Sol2E_Input_InputSystem_Dispose.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="EntityChanged Method " Url="html/M_Sol2E_Input_InputSystem_EntityChanged.htm" />
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Sol2E_Input_InputSystem_Initialize.htm" />
+          <HelpTOCNode Title="RemoveEntityResources Method " Url="html/M_Sol2E_Input_InputSystem_RemoveEntityResources.htm" />
+          <HelpTOCNode Title="SceneChanged Method " Url="html/M_Sol2E_Input_InputSystem_SceneChanged.htm" />
+          <HelpTOCNode Title="ScriptCollectionChanged Method " Url="html/M_Sol2E_Input_InputSystem_ScriptCollectionChanged.htm" />
+          <HelpTOCNode Id="d4cea49d-498b-47d8-b9b9-1e8aafc68423" Title="Update Method " Url="html/Overload_Sol2E_Input_InputSystem_Update.htm">
+            <HelpTOCNode Title="Update Method (Single)" Url="html/M_Sol2E_Input_InputSystem_Update.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="InputSystem Properties" Url="html/Properties_T_Sol2E_Input_InputSystem.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1938d064-5db7-4546-a7da-ced1799e710e" Title="SimpleInputCondition Class" Url="html/T_Sol2E_Input_SimpleInputCondition.htm">
+        <HelpTOCNode Title="SimpleInputCondition Members" Url="html/AllMembers_T_Sol2E_Input_SimpleInputCondition.htm" />
+        <HelpTOCNode Title="SimpleInputCondition Constructor " Url="html/M_Sol2E_Input_SimpleInputCondition__ctor.htm" />
+        <HelpTOCNode Id="5911d011-4e8b-47fb-9fb4-79fe75627df7" Title="SimpleInputCondition Methods" Url="html/Methods_T_Sol2E_Input_SimpleInputCondition.htm">
+          <HelpTOCNode Title="IsMet Method " Url="html/M_Sol2E_Input_SimpleInputCondition_IsMet.htm" />
+          <HelpTOCNode Title="SourceGotPressed Method " Url="html/M_Sol2E_Input_SimpleInputCondition_SourceGotPressed.htm" />
+          <HelpTOCNode Title="SourceGotReleased Method " Url="html/M_Sol2E_Input_SimpleInputCondition_SourceGotReleased.htm" />
+          <HelpTOCNode Title="SourceHasMoved Method " Url="html/M_Sol2E_Input_SimpleInputCondition_SourceHasMoved.htm" />
+          <HelpTOCNode Title="SourceIsDown Method " Url="html/M_Sol2E_Input_SimpleInputCondition_SourceIsDown.htm" />
+          <HelpTOCNode Title="SourceIsUp Method " Url="html/M_Sol2E_Input_SimpleInputCondition_SourceIsUp.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1fde390a-b868-4b21-9bab-fd01ca3c264f" Title="SimpleInputCondition Properties" Url="html/Properties_T_Sol2E_Input_SimpleInputCondition.htm">
+          <HelpTOCNode Title="Active Property " Url="html/P_Sol2E_Input_SimpleInputCondition_Active.htm" />
+          <HelpTOCNode Title="Source Property " Url="html/P_Sol2E_Input_SimpleInputCondition_Source.htm" />
+          <HelpTOCNode Title="State Property " Url="html/P_Sol2E_Input_SimpleInputCondition_State.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8e6d68f8-8085-4ded-89d3-d0a8fdf5b291" Title="Sol2E.Physics Namespace" Url="html/N_Sol2E_Physics.htm">
+      <HelpTOCNode Id="f5608801-cb3d-473e-bf9e-bd3aa0d1176a" Title="Collider Class" Url="html/T_Sol2E_Physics_Collider.htm">
+        <HelpTOCNode Title="Collider Members" Url="html/AllMembers_T_Sol2E_Physics_Collider.htm" />
+        <HelpTOCNode Title="Collider Constructor " Url="html/M_Sol2E_Physics_Collider__ctor.htm" />
+        <HelpTOCNode Id="2de058b9-4808-4a6c-a96f-fbffe0aeade8" Title="Collider Fields" Url="html/Fields_T_Sol2E_Physics_Collider.htm">
+          <HelpTOCNode Title="_bePrecise Field" Url="html/F_Sol2E_Physics_Collider__bePrecise.htm" />
+          <HelpTOCNode Title="_isAffectedByGravity Field" Url="html/F_Sol2E_Physics_Collider__isAffectedByGravity.htm" />
+          <HelpTOCNode Title="_isDynamic Field" Url="html/F_Sol2E_Physics_Collider__isDynamic.htm" />
+          <HelpTOCNode Title="_isInputControlled Field" Url="html/F_Sol2E_Physics_Collider__isInputControlled.htm" />
+          <HelpTOCNode Title="_isKinematic Field" Url="html/F_Sol2E_Physics_Collider__isKinematic.htm" />
+          <HelpTOCNode Title="_isPenetratable Field" Url="html/F_Sol2E_Physics_Collider__isPenetratable.htm" />
+          <HelpTOCNode Title="_mass Field" Url="html/F_Sol2E_Physics_Collider__mass.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Collider Methods" Url="html/Methods_T_Sol2E_Physics_Collider.htm" />
+        <HelpTOCNode Id="446e4f99-3962-4bc9-b716-6931b9c26a6a" Title="Collider Properties" Url="html/Properties_T_Sol2E_Physics_Collider.htm">
+          <HelpTOCNode Title="BePrecise Property " Url="html/P_Sol2E_Physics_Collider_BePrecise.htm" />
+          <HelpTOCNode Title="IsAffectedByGravity Property " Url="html/P_Sol2E_Physics_Collider_IsAffectedByGravity.htm" />
+          <HelpTOCNode Title="IsDynamic Property " Url="html/P_Sol2E_Physics_Collider_IsDynamic.htm" />
+          <HelpTOCNode Title="IsInputControlled Property " Url="html/P_Sol2E_Physics_Collider_IsInputControlled.htm" />
+          <HelpTOCNode Title="IsKinematic Property " Url="html/P_Sol2E_Physics_Collider_IsKinematic.htm" />
+          <HelpTOCNode Title="IsPenetratable Property " Url="html/P_Sol2E_Physics_Collider_IsPenetratable.htm" />
+          <HelpTOCNode Title="Mass Property " Url="html/P_Sol2E_Physics_Collider_Mass.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6191e3fc-32c1-4b3c-b2a2-f4ffa6fbe10d" Title="CollisionScript Class" Url="html/T_Sol2E_Physics_CollisionScript.htm">
+        <HelpTOCNode Title="CollisionScript Members" Url="html/AllMembers_T_Sol2E_Physics_CollisionScript.htm" />
+        <HelpTOCNode Title="CollisionScript Constructor " Url="html/M_Sol2E_Physics_CollisionScript__ctor.htm" />
+        <HelpTOCNode Id="789ff783-4802-42f8-99a9-bf6e0259bb85" Title="CollisionScript Methods" Url="html/Methods_T_Sol2E_Physics_CollisionScript.htm">
+          <HelpTOCNode Title="OnCollision Method " Url="html/M_Sol2E_Physics_CollisionScript_OnCollision.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a2a5220d-3a7a-4560-848d-10cc7b26bdfa" Title="CollisionScript Properties" Url="html/Properties_T_Sol2E_Physics_CollisionScript.htm">
+          <HelpTOCNode Title="Action Property " Url="html/P_Sol2E_Physics_CollisionScript_Action.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="CollisionType Enumeration" Url="html/T_Sol2E_Physics_CollisionType.htm" />
+      <HelpTOCNode Id="5815dca2-b059-4f4c-8c88-5155596ffda8" Title="Environment Class" Url="html/T_Sol2E_Physics_Environment.htm">
+        <HelpTOCNode Title="Environment Members" Url="html/AllMembers_T_Sol2E_Physics_Environment.htm" />
+        <HelpTOCNode Title="Environment Constructor " Url="html/M_Sol2E_Physics_Environment__ctor.htm" />
+        <HelpTOCNode Id="6ae08f4a-16cf-4137-9184-beea610d4419" Title="Environment Fields" Url="html/Fields_T_Sol2E_Physics_Environment.htm">
+          <HelpTOCNode Title="_gravity Field" Url="html/F_Sol2E_Physics_Environment__gravity.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Environment Methods" Url="html/Methods_T_Sol2E_Physics_Environment.htm" />
+        <HelpTOCNode Id="784cd22b-7cff-4a32-9eec-3dfc55075c63" Title="Environment Properties" Url="html/Properties_T_Sol2E_Physics_Environment.htm">
+          <HelpTOCNode Title="Gravity Property " Url="html/P_Sol2E_Physics_Environment_Gravity.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6bcf0a27-818c-4f01-9950-65d022dd4c1c" Title="ListExtension Class" Url="html/T_Sol2E_Physics_ListExtension.htm">
+        <HelpTOCNode Title="ListExtension Members" Url="html/AllMembers_T_Sol2E_Physics_ListExtension.htm" />
+        <HelpTOCNode Id="8a3d1e88-c891-4278-9f50-e5c07eb33c54" Title="ListExtension Methods" Url="html/Methods_T_Sol2E_Physics_ListExtension.htm">
+          <HelpTOCNode Title="Perforate(T) Method " Url="html/M_Sol2E_Physics_ListExtension_Perforate__1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ed04a304-3b7b-4086-83c0-6df2e36d60f5" Title="PhysicsSystem Class" Url="html/T_Sol2E_Physics_PhysicsSystem.htm">
+        <HelpTOCNode Title="PhysicsSystem Members" Url="html/AllMembers_T_Sol2E_Physics_PhysicsSystem.htm" />
+        <HelpTOCNode Title="PhysicsSystem Constructor " Url="html/M_Sol2E_Physics_PhysicsSystem__ctor.htm" />
+        <HelpTOCNode Id="c3f3048e-e0d1-4727-ba6b-8b1c35b0ff7d" Title="PhysicsSystem Fields" Url="html/Fields_T_Sol2E_Physics_PhysicsSystem.htm">
+          <HelpTOCNode Title="Bodies Field" Url="html/F_Sol2E_Physics_PhysicsSystem_Bodies.htm" />
+          <HelpTOCNode Title="MarginAdjustmentFactor Field" Url="html/F_Sol2E_Physics_PhysicsSystem_MarginAdjustmentFactor.htm" />
+          <HelpTOCNode Title="Prototypes Field" Url="html/F_Sol2E_Physics_PhysicsSystem_Prototypes.htm" />
+          <HelpTOCNode Title="Space Field" Url="html/F_Sol2E_Physics_PhysicsSystem_Space.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fc2b046e-f8a2-4d52-beac-ad3e91651d87" Title="PhysicsSystem Methods" Url="html/Methods_T_Sol2E_Physics_PhysicsSystem.htm">
+          <HelpTOCNode Title="AddEntityResources Method " Url="html/M_Sol2E_Physics_PhysicsSystem_AddEntityResources.htm" />
+          <HelpTOCNode Title="BepuEventCollisionEnded Method " Url="html/M_Sol2E_Physics_PhysicsSystem_BepuEventCollisionEnded.htm" />
+          <HelpTOCNode Title="BepuEventInitialCollisionDetected Method " Url="html/M_Sol2E_Physics_PhysicsSystem_BepuEventInitialCollisionDetected.htm" />
+          <HelpTOCNode Title="BepuEventPairTouched Method " Url="html/M_Sol2E_Physics_PhysicsSystem_BepuEventPairTouched.htm" />
+          <HelpTOCNode Title="ColliderChanged Method " Url="html/M_Sol2E_Physics_PhysicsSystem_ColliderChanged.htm" />
+          <HelpTOCNode Title="CollisionMarginAdjustedVertices Method " Url="html/M_Sol2E_Physics_PhysicsSystem_CollisionMarginAdjustedVertices.htm" />
+          <HelpTOCNode Title="CreateBodyFromMesh Method " Url="html/M_Sol2E_Physics_PhysicsSystem_CreateBodyFromMesh.htm" />
+          <HelpTOCNode Id="a9af3b7c-e1e9-4e4c-b29d-5073a6fb939d" Title="Dispose Method " Url="html/Overload_Sol2E_Physics_PhysicsSystem_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Sol2E_Physics_PhysicsSystem_Dispose.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="EntityChanged Method " Url="html/M_Sol2E_Physics_PhysicsSystem_EntityChanged.htm" />
+          <HelpTOCNode Title="EnvironmentChanged Method " Url="html/M_Sol2E_Physics_PhysicsSystem_EnvironmentChanged.htm" />
+          <HelpTOCNode Title="GetShapeFromModel Method " Url="html/M_Sol2E_Physics_PhysicsSystem_GetShapeFromModel.htm" />
+          <HelpTOCNode Title="GetShapeFromVertexArray Method " Url="html/M_Sol2E_Physics_PhysicsSystem_GetShapeFromVertexArray.htm" />
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Sol2E_Physics_PhysicsSystem_Initialize.htm" />
+          <HelpTOCNode Title="InvokeScriptActionFromCollisionEvent Method " Url="html/M_Sol2E_Physics_PhysicsSystem_InvokeScriptActionFromCollisionEvent.htm" />
+          <HelpTOCNode Title="MovementChanged Method " Url="html/M_Sol2E_Physics_PhysicsSystem_MovementChanged.htm" />
+          <HelpTOCNode Title="RemoveEntityResources Method " Url="html/M_Sol2E_Physics_PhysicsSystem_RemoveEntityResources.htm" />
+          <HelpTOCNode Title="SceneChanged Method " Url="html/M_Sol2E_Physics_PhysicsSystem_SceneChanged.htm" />
+          <HelpTOCNode Title="ScriptCollectionChanged Method " Url="html/M_Sol2E_Physics_PhysicsSystem_ScriptCollectionChanged.htm" />
+          <HelpTOCNode Title="SetupBodyFromEntity Method " Url="html/M_Sol2E_Physics_PhysicsSystem_SetupBodyFromEntity.htm" />
+          <HelpTOCNode Title="SurfaceChanged Method " Url="html/M_Sol2E_Physics_PhysicsSystem_SurfaceChanged.htm" />
+          <HelpTOCNode Title="TransformChanged Method " Url="html/M_Sol2E_Physics_PhysicsSystem_TransformChanged.htm" />
+          <HelpTOCNode Id="1e67ef49-0fa8-46b4-81de-12d4fb53bcef" Title="Update Method " Url="html/Overload_Sol2E_Physics_PhysicsSystem_Update.htm">
+            <HelpTOCNode Title="Update Method (Single)" Url="html/M_Sol2E_Physics_PhysicsSystem_Update.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="def41303-fc1b-4796-b698-6022dfae752f" Title="PhysicsSystem Properties" Url="html/Properties_T_Sol2E_Physics_PhysicsSystem.htm">
+          <HelpTOCNode Title="CollisionMargin Property " Url="html/P_Sol2E_Physics_PhysicsSystem_CollisionMargin.htm" />
+          <HelpTOCNode Title="IsPaused Property " Url="html/P_Sol2E_Physics_PhysicsSystem_IsPaused.htm" />
+          <HelpTOCNode Title="IterationLimit Property " Url="html/P_Sol2E_Physics_PhysicsSystem_IterationLimit.htm" />
+          <HelpTOCNode Title="MaxStepsPerFrame Property " Url="html/P_Sol2E_Physics_PhysicsSystem_MaxStepsPerFrame.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0204db97-6cdd-49bc-89f1-dc97584355cc" Title="Surface Class" Url="html/T_Sol2E_Physics_Surface.htm">
+        <HelpTOCNode Title="Surface Members" Url="html/AllMembers_T_Sol2E_Physics_Surface.htm" />
+        <HelpTOCNode Title="Surface Constructor " Url="html/M_Sol2E_Physics_Surface__ctor.htm" />
+        <HelpTOCNode Id="650b74ba-8e13-43ac-9f83-6af53355b1d9" Title="Surface Fields" Url="html/Fields_T_Sol2E_Physics_Surface.htm">
+          <HelpTOCNode Title="_bounciness Field" Url="html/F_Sol2E_Physics_Surface__bounciness.htm" />
+          <HelpTOCNode Title="_kineticFriction Field" Url="html/F_Sol2E_Physics_Surface__kineticFriction.htm" />
+          <HelpTOCNode Title="_staticFriction Field" Url="html/F_Sol2E_Physics_Surface__staticFriction.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Surface Methods" Url="html/Methods_T_Sol2E_Physics_Surface.htm" />
+        <HelpTOCNode Id="1a5ac777-4fbb-4441-aee1-2ad147cd21b6" Title="Surface Properties" Url="html/Properties_T_Sol2E_Physics_Surface.htm">
+          <HelpTOCNode Title="Bounciness Property " Url="html/P_Sol2E_Physics_Surface_Bounciness.htm" />
+          <HelpTOCNode Title="Friction Property " Url="html/P_Sol2E_Physics_Surface_Friction.htm" />
+          <HelpTOCNode Title="KineticFriction Property " Url="html/P_Sol2E_Physics_Surface_KineticFriction.htm" />
+          <HelpTOCNode Title="StaticFriction Property " Url="html/P_Sol2E_Physics_Surface_StaticFriction.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0ae4b24f-7beb-45da-a55e-dfec3a725cf9" Title="Sol2E.Utils Namespace" Url="html/N_Sol2E_Utils.htm">
+      <HelpTOCNode Id="e4cf09ef-a674-4674-98af-1a7a9c02cae8" Title="Cache Class" Url="html/T_Sol2E_Utils_Cache.htm">
+        <HelpTOCNode Title="Cache Members" Url="html/AllMembers_T_Sol2E_Utils_Cache.htm" />
+        <HelpTOCNode Title="Cache Constructor " Url="html/M_Sol2E_Utils_Cache__cctor.htm" />
+        <HelpTOCNode Id="f4910595-3041-4550-9d6e-b13a46f4f958" Title="Cache Fields" Url="html/Fields_T_Sol2E_Utils_Cache.htm">
+          <HelpTOCNode Title="Resources Field" Url="html/F_Sol2E_Utils_Cache_Resources.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b89f133b-6ffc-4b51-9939-8dfa86f3fb18" Title="Cache Methods" Url="html/Methods_T_Sol2E_Utils_Cache.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Sol2E_Utils_Cache_Add.htm" />
+          <HelpTOCNode Title="Clear Method " Url="html/M_Sol2E_Utils_Cache_Clear.htm" />
+          <HelpTOCNode Title="Remove Method " Url="html/M_Sol2E_Utils_Cache_Remove.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0320b02b-9b62-4aff-9c31-81f26b1d69c9" Title="Cache Properties" Url="html/Properties_T_Sol2E_Utils_Cache.htm">
+          <HelpTOCNode Title="Enabled Property " Url="html/P_Sol2E_Utils_Cache_Enabled.htm" />
+          <HelpTOCNode Title="Keys Property " Url="html/P_Sol2E_Utils_Cache_Keys.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="eb2893f3-fc2d-4218-94b5-10330e043d26" Title="CachedResource(T) Class" Url="html/T_Sol2E_Utils_CachedResource_1.htm">
+        <HelpTOCNode Title="CachedResource(T) Members" Url="html/AllMembers_T_Sol2E_Utils_CachedResource_1.htm" />
+        <HelpTOCNode Title="CachedResource(T) Constructor " Url="html/M_Sol2E_Utils_CachedResource_1__ctor.htm" />
+        <HelpTOCNode Id="5a25e992-9f4f-4e50-8afb-ac1680578975" Title="CachedResource(T) Fields" Url="html/Fields_T_Sol2E_Utils_CachedResource_1.htm">
+          <HelpTOCNode Title="_resource Field" Url="html/F_Sol2E_Utils_CachedResource_1__resource.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="036f21c8-d4dd-438f-bcb0-a155e0255b63" Title="CachedResource(T) Methods" Url="html/Methods_T_Sol2E_Utils_CachedResource_1.htm">
+          <HelpTOCNode Title="OnDeserialized Method " Url="html/M_Sol2E_Utils_CachedResource_1_OnDeserialized.htm" />
+          <HelpTOCNode Title="OnSerializing Method " Url="html/M_Sol2E_Utils_CachedResource_1_OnSerializing.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f2d85dca-bc8e-4ffd-bab2-1cb062d1a745" Title="CachedResource(T) Properties" Url="html/Properties_T_Sol2E_Utils_CachedResource_1.htm">
+          <HelpTOCNode Title="Id Property " Url="html/P_Sol2E_Utils_CachedResource_1_Id.htm" />
+          <HelpTOCNode Title="Resource Property " Url="html/P_Sol2E_Utils_CachedResource_1_Resource.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1f3ca67b-1a35-49ba-bb71-3eafe13b6277" Title="CachingEnabled Class" Url="html/T_Sol2E_Utils_CachingEnabled.htm">
+        <HelpTOCNode Title="CachingEnabled Members" Url="html/AllMembers_T_Sol2E_Utils_CachingEnabled.htm" />
+        <HelpTOCNode Title="CachingEnabled Constructor " Url="html/M_Sol2E_Utils_CachingEnabled__ctor.htm" />
+        <HelpTOCNode Id="aef969c6-a37f-4168-a591-1d220bca7947" Title="CachingEnabled Methods" Url="html/Methods_T_Sol2E_Utils_CachingEnabled.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Sol2E_Utils_CachingEnabled_Dispose.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e48ee9ae-e94e-4466-bda4-da8e789a7d73" Title="IDPool Class" Url="html/T_Sol2E_Utils_IDPool.htm">
+        <HelpTOCNode Title="IDPool Members" Url="html/AllMembers_T_Sol2E_Utils_IDPool.htm" />
+        <HelpTOCNode Title="IDPool Constructor " Url="html/M_Sol2E_Utils_IDPool__ctor.htm" />
+        <HelpTOCNode Title="IDPool Constructor " Url="html/M_Sol2E_Utils_IDPool__cctor.htm" />
+        <HelpTOCNode Id="1aaab1c0-3b2d-4e8e-aa4e-9b3e9a926f9f" Title="IDPool Fields" Url="html/Fields_T_Sol2E_Utils_IDPool.htm">
+          <HelpTOCNode Title="_lowestUnassignedID Field" Url="html/F_Sol2E_Utils_IDPool__lowestUnassignedID.htm" />
+          <HelpTOCNode Title="dummyList Field" Url="html/F_Sol2E_Utils_IDPool_dummyList.htm" />
+          <HelpTOCNode Title="InvalidID Field" Url="html/F_Sol2E_Utils_IDPool_InvalidID.htm" />
+          <HelpTOCNode Title="StartID Field" Url="html/F_Sol2E_Utils_IDPool_StartID.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a3dcc89d-80ac-4b17-ac05-abfa0cc267bb" Title="IDPool Methods" Url="html/Methods_T_Sol2E_Utils_IDPool.htm">
+          <HelpTOCNode Id="cb543c06-6c2f-4157-a2e0-95f4f68ed111" Title="GetNextAvailableID Method " Url="html/Overload_Sol2E_Utils_IDPool_GetNextAvailableID.htm">
+            <HelpTOCNode Title="GetNextAvailableID Method " Url="html/M_Sol2E_Utils_IDPool_GetNextAvailableID.htm" />
+            <HelpTOCNode Title="GetNextAvailableID Method (ICollection(Int32))" Url="html/M_Sol2E_Utils_IDPool_GetNextAvailableID_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fba8006f-a4b2-4b24-95fc-2de5106b5186" Title="InstanceCreator Class" Url="html/T_Sol2E_Utils_InstanceCreator.htm">
+        <HelpTOCNode Title="InstanceCreator Members" Url="html/AllMembers_T_Sol2E_Utils_InstanceCreator.htm" />
+        <HelpTOCNode Id="0ce47566-b7a8-4ec8-a782-8a5642ad6ffb" Title="InstanceCreator Methods" Url="html/Methods_T_Sol2E_Utils_InstanceCreator.htm">
+          <HelpTOCNode Title="CreateInstanceFromDefaultContructor(T) Method " Url="html/M_Sol2E_Utils_InstanceCreator_CreateInstanceFromDefaultContructor__1.htm" />
+          <HelpTOCNode Title="CreateInstanceFromPrivateContructor(T) Method " Url="html/M_Sol2E_Utils_InstanceCreator_CreateInstanceFromPrivateContructor__1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6b24c024-b0a9-4402-9205-27185fe9cc77" Title="Multiton(T) Class" Url="html/T_Sol2E_Utils_Multiton_1.htm">
+        <HelpTOCNode Title="Multiton(T) Members" Url="html/AllMembers_T_Sol2E_Utils_Multiton_1.htm" />
+        <HelpTOCNode Title="Multiton(T) Constructor " Url="html/M_Sol2E_Utils_Multiton_1__ctor.htm" />
+        <HelpTOCNode Title="Multiton(T) Constructor " Url="html/M_Sol2E_Utils_Multiton_1__cctor.htm" />
+        <HelpTOCNode Id="762e3636-46b9-420d-b397-1723b1421514" Title="Multiton(T) Fields" Url="html/Fields_T_Sol2E_Utils_Multiton_1.htm">
+          <HelpTOCNode Title="Instances Field" Url="html/F_Sol2E_Utils_Multiton_1_Instances.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2b062af1-c705-4938-a017-9536a9740f48" Title="Multiton(T) Methods" Url="html/Methods_T_Sol2E_Utils_Multiton_1.htm">
+          <HelpTOCNode Title="GetInstance Method " Url="html/M_Sol2E_Utils_Multiton_1_GetInstance.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f1e5d701-a9f0-40cc-b38b-593c28057397" Title="ProfileContext Structure" Url="html/T_Sol2E_Utils_ProfileContext.htm">
+        <HelpTOCNode Title="ProfileContext Members" Url="html/AllMembers_T_Sol2E_Utils_ProfileContext.htm" />
+        <HelpTOCNode Title="ProfileContext Constructor " Url="html/M_Sol2E_Utils_ProfileContext__ctor.htm" />
+        <HelpTOCNode Id="fc1685e5-2412-4384-a231-228940fb9265" Title="ProfileContext Fields" Url="html/Fields_T_Sol2E_Utils_ProfileContext.htm">
+          <HelpTOCNode Title="_profiler Field" Url="html/F_Sol2E_Utils_ProfileContext__profiler.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e2f275ae-2e9f-42cb-a547-694f78d4f977" Title="ProfileContext Methods" Url="html/Methods_T_Sol2E_Utils_ProfileContext.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Sol2E_Utils_ProfileContext_Dispose.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3f008ffb-2507-4703-b651-99da1ad94656" Title="Profiler Class" Url="html/T_Sol2E_Utils_Profiler.htm">
+        <HelpTOCNode Title="Profiler Members" Url="html/AllMembers_T_Sol2E_Utils_Profiler.htm" />
+        <HelpTOCNode Title="Profiler Constructor " Url="html/M_Sol2E_Utils_Profiler__ctor.htm" />
+        <HelpTOCNode Title="Profiler Constructor " Url="html/M_Sol2E_Utils_Profiler__cctor.htm" />
+        <HelpTOCNode Id="a06a8ee7-5a0a-4e80-a100-1f737b5a507f" Title="Profiler Fields" Url="html/Fields_T_Sol2E_Utils_Profiler.htm">
+          <HelpTOCNode Title="_stopwatch Field" Url="html/F_Sol2E_Utils_Profiler__stopwatch.htm" />
+          <HelpTOCNode Title="_timeSinceLastOutput Field" Url="html/F_Sol2E_Utils_Profiler__timeSinceLastOutput.htm" />
+          <HelpTOCNode Title="AllProfilers Field" Url="html/F_Sol2E_Utils_Profiler_AllProfilers.htm" />
+          <HelpTOCNode Title="MaxNameLength Field" Url="html/F_Sol2E_Utils_Profiler_MaxNameLength.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8955fea5-f4e9-496e-bb72-67449067adda" Title="Profiler Methods" Url="html/Methods_T_Sol2E_Utils_Profiler.htm">
+          <HelpTOCNode Title="PeriodicalOutput Method " Url="html/M_Sol2E_Utils_Profiler_PeriodicalOutput.htm" />
+          <HelpTOCNode Title="Print Method " Url="html/M_Sol2E_Utils_Profiler_Print.htm" />
+          <HelpTOCNode Title="Reset Method " Url="html/M_Sol2E_Utils_Profiler_Reset.htm" />
+          <HelpTOCNode Title="Start Method " Url="html/M_Sol2E_Utils_Profiler_Start.htm" />
+          <HelpTOCNode Title="Stop Method " Url="html/M_Sol2E_Utils_Profiler_Stop.htm" />
+          <HelpTOCNode Title="ToString Method " Url="html/M_Sol2E_Utils_Profiler_ToString.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="357805c6-2aeb-4356-bb0e-374cc12bb0f6" Title="Profiler Properties" Url="html/Properties_T_Sol2E_Utils_Profiler.htm">
+          <HelpTOCNode Title="Name Property " Url="html/P_Sol2E_Utils_Profiler_Name.htm" />
+          <HelpTOCNode Title="WorkingTime Property " Url="html/P_Sol2E_Utils_Profiler_WorkingTime.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="702c4cfd-118d-41fb-a4e4-631f26b0d407" Title="Serializer Class" Url="html/T_Sol2E_Utils_Serializer.htm">
+        <HelpTOCNode Title="Serializer Members" Url="html/AllMembers_T_Sol2E_Utils_Serializer.htm" />
+        <HelpTOCNode Id="c64f5444-f7af-47ca-90e1-cea335dc4638" Title="Serializer Methods" Url="html/Methods_T_Sol2E_Utils_Serializer.htm">
+          <HelpTOCNode Title="ByteArrayFromFile Method " Url="html/M_Sol2E_Utils_Serializer_ByteArrayFromFile.htm" />
+          <HelpTOCNode Title="ByteArrayToFile Method " Url="html/M_Sol2E_Utils_Serializer_ByteArrayToFile.htm" />
+          <HelpTOCNode Title="Deserialize(T) Method " Url="html/M_Sol2E_Utils_Serializer_Deserialize__1.htm" />
+          <HelpTOCNode Title="Serialize(T) Method " Url="html/M_Sol2E_Utils_Serializer_Serialize__1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="4b916d0f-f7bc-4734-bec2-cca0019a8da6" Title="Singleton(T) Class" Url="html/T_Sol2E_Utils_Singleton_1.htm">
+        <HelpTOCNode Title="Singleton(T) Members" Url="html/AllMembers_T_Sol2E_Utils_Singleton_1.htm" />
+        <HelpTOCNode Title="Singleton(T) Constructor " Url="html/M_Sol2E_Utils_Singleton_1__ctor.htm" />
+        <HelpTOCNode Title="Singleton(T) Constructor " Url="html/M_Sol2E_Utils_Singleton_1__cctor.htm" />
+        <HelpTOCNode Id="6f909311-f791-465f-bdc9-733c0b2b6f11" Title="Singleton(T) Fields" Url="html/Fields_T_Sol2E_Utils_Singleton_1.htm">
+          <HelpTOCNode Title="_instance Field" Url="html/F_Sol2E_Utils_Singleton_1__instance.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="16606ff6-70d0-4bad-99de-2b84ae8c8bc4" Title="Singleton(T) Properties" Url="html/Properties_T_Sol2E_Utils_Singleton_1.htm">
+          <HelpTOCNode Title="Instance Property " Url="html/P_Sol2E_Utils_Singleton_1_Instance.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
